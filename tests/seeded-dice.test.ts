@@ -135,7 +135,7 @@ describe("seeded dice", () => {
           "die": 4,
           "table": "I",
         },
-        "equipment": "Candle",
+        "equipment": "Tallow candle",
         "experience": 0,
         "features": [
           {
