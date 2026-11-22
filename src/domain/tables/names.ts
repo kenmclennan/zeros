@@ -249,7 +249,7 @@ export const maleNicknames: readonly string[] = [
   "the Ox",
   "the Glorious",
   "the Raven",
-  "the Godly",
+  "the God-touched",
   "the Grim",
   "the Ram",
   "the Handsome",

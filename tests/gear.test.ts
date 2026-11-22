@@ -9,7 +9,7 @@ function roll(tail: number[], options?: Parameters<typeof rollZero>[1]) {
 
 describe("gear", () => {
   it("equipment money and alignment", () => {
-    expect(roll([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 100]).zero.equipment).toBe("Backpack");
+    expect(roll([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 100]).zero.equipment).toBe("Leather satchel");
     expect(roll([1, 24, 1, 1, 1, 1, 1, 1, 1, 1, 100]).zero.equipment).toBe("Waterskin");
     expect(roll([1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 100]).zero.equipment).toBe("10' chain");
     expect(equipmentTable).toHaveLength(24);

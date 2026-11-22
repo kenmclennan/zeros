@@ -260,7 +260,7 @@ d100 name and nickname tables, adapted from the name tables in City Encounters (
 | 42   | the Ox            |
 | 43   | the Glorious      |
 | 44   | the Raven         |
-| 45   | the Godly         |
+| 45   | the God-touched   |
 | 46   | the Grim          |
 | 47   | the Ram           |
 | 48   | the Handsome      |
