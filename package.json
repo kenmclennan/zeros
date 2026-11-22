@@ -1,0 +1,27 @@
+{
+  "name": "zeros",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A 0-level funnel character generator for old-school fantasy RPGs",
+  "type": "module",
+  "bin": { "zeros": "dist/adapters/cli/bin.js" },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format:md": "prettier --write --prose-wrap=never \"**/*.md\"",
+    "format:md:check": "prettier --check --prose-wrap=never \"**/*.md\"",
+    "lint:md": "node scripts/lint-md.mjs",
+    "check": "npm run typecheck && npm run lint && npm run test && npm run format:md:check && npm run lint:md && npm run build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.15",
+    "@types/node": "^24.0.0",
+    "markdownlint": "^0.41.1",
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
