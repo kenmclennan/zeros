@@ -16,6 +16,14 @@ import {
   rollOccupationRow,
 } from "./occupation.js";
 import type { Dice } from "./ports/dice.js";
+import {
+  baseSpeed,
+  type Race,
+  type RacialLanguage,
+  racialLanguage,
+  rollRace,
+  traitsFor,
+} from "./race.js";
 
 export interface Zero {
   abilities: Record<AbilityName, AbilityScore>;
@@ -27,9 +35,15 @@ export interface Zero {
   speed: number;
   attack: { melee: number; missile: number };
   crit: { die: 4; table: "I" };
-  languages: { common: true; extraLanguages: number; canReadAndWrite: boolean };
+  languages: {
+    common: true;
+    racial: RacialLanguage | null;
+    extraLanguages: number;
+    canReadAndWrite: boolean;
+  };
   experience: number;
-  race: "human";
+  race: Race;
+  traits: string[];
   occupation: Occupation;
   equipment: string;
   money: { copper: number };
@@ -43,6 +57,7 @@ export interface RollOptions {
   alignment?: Alignment;
   heroicChance?: number;
   survivors?: boolean;
+  demihumanChance?: number;
 }
 
 const abilityDiceCount = 3;
@@ -51,7 +66,6 @@ const luckyRollSides = 30;
 const hitDieSides = 4;
 const heroicChanceSides = 100;
 const baseArmorClass = 10;
-const baseSpeed = 30;
 const minimumHitPoints = 1;
 const commonOnlyIntelligence = 7;
 const cannotReadIntelligence = 5;
@@ -81,6 +95,7 @@ export function rollZero(dice: Dice, options: RollOptions = {}): Zero {
   if (options.survivors === true) hitDie = Math.max(hitDie, dice.roll(hitDieSides));
 
   const occupation = lookupOccupation(rollOccupationRow(dice));
+  const race = rollRace(dice, options.demihumanChance ?? 0);
   const equipment = lookupEquipment(rollEquipmentRow(dice));
   const copper = rollCopper(dice);
   const alignment = options.alignment ?? rollAlignment(dice);
@@ -108,7 +123,7 @@ export function rollZero(dice: Dice, options: RollOptions = {}): Zero {
     },
     initiative: rolled.agility.modifier + bonus("initiative"),
     armorClass: baseArmorClass + rolled.agility.modifier + bonus("armorClass"),
-    speed: baseSpeed + bonus("speed"),
+    speed: baseSpeed(race) + bonus("speed"),
     attack: {
       melee: rolled.strength.modifier + bonus("melee"),
       missile: rolled.agility.modifier + bonus("missile"),
@@ -116,11 +131,13 @@ export function rollZero(dice: Dice, options: RollOptions = {}): Zero {
     crit: { die: 4, table: "I" },
     languages: {
       common: true,
+      racial: racialLanguage(race),
       extraLanguages,
       canReadAndWrite: intelligence.score > cannotReadIntelligence,
     },
     experience: 0,
-    race: "human",
+    race,
+    traits: traitsFor(race),
     occupation: { ...occupation, tradeGoods },
     equipment,
     money: { copper },

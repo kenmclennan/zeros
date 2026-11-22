@@ -184,7 +184,14 @@ describe("heroic", () => {
     const json = JSON.parse(runCli("roll", "--heroic=50", "--format", "json"));
     expect(json.heroic).toBe(true);
     expect(json.heroicChance).toBe(50);
-    expect(Object.keys(json)).toEqual(["seed", "heroic", "heroicChance", "survivors", "zeros"]);
+    expect(Object.keys(json)).toEqual([
+      "seed",
+      "heroic",
+      "heroicChance",
+      "survivors",
+      "demihumanChance",
+      "zeros",
+    ]);
     expect(JSON.parse(runCli("roll", "--format", "json")).heroicChance).toBe(0);
   });
 });

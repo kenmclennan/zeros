@@ -85,7 +85,14 @@ describe("survivors", () => {
   it("puts survivors after heroicChance in the JSON", () => {
     const on = JSON.parse(runCli("roll", "--survivors", "--format", "json"));
     expect(on.survivors).toBe(true);
-    expect(Object.keys(on)).toEqual(["seed", "heroic", "heroicChance", "survivors", "zeros"]);
+    expect(Object.keys(on)).toEqual([
+      "seed",
+      "heroic",
+      "heroicChance",
+      "survivors",
+      "demihumanChance",
+      "zeros",
+    ]);
     expect(JSON.parse(runCli("roll", "--format", "json")).survivors).toBe(false);
   });
 });

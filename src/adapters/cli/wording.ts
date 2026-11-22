@@ -9,10 +9,11 @@ export function capitalise(text: string): string {
 }
 
 export function languages(zero: Zero): string {
-  const { extraLanguages, canReadAndWrite } = zero.languages;
+  const { racial, extraLanguages, canReadAndWrite } = zero.languages;
   const extra = extraLanguages > 0 ? ` +${extraLanguages} extra` : "";
   const literacy = canReadAndWrite ? "(reads and writes)" : "(cannot read or write)";
-  return `Common${extra} ${literacy}`;
+  const racialPart = racial === null ? "" : `, ${racial}`;
+  return `Common${racialPart}${extra} ${literacy}`;
 }
 
 export function featureText(zero: Zero): string {
@@ -26,4 +27,19 @@ export function luckyRollText(zero: Zero): string {
 
 export function weaponText(zero: Zero): string {
   return `${zero.occupation.weapon.written}, ${zero.occupation.weapon.damage}`;
+}
+
+const racePrefixes: Readonly<Record<Zero["race"], string>> = {
+  human: "",
+  dwarf: "Dwarven ",
+  elf: "Elven ",
+  halfling: "Halfling ",
+};
+
+export function occupationTitle(zero: Zero): string {
+  return `${racePrefixes[zero.race]}${zero.occupation.name}`;
+}
+
+export function traitsText(zero: Zero): string {
+  return zero.traits.join("; ");
 }

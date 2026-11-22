@@ -35,7 +35,7 @@ After pulling new changes, run `npm ci && npm run build` again. `npm unlink -g z
 
 ## Rolling characters
 
-`zeros roll` rolls one zero and prints it. Each zero has ability scores and modifiers, a birth augur (the lucky roll), hit points, saves, attack bonuses, an occupation with its weapon and trade goods, a piece of equipment, copper, languages, a name (sometimes with a nickname) and two descriptive features. Features that imply an ability, such as a muscled back or a limp, only appear when that ability's modifier agrees.
+`zeros roll` rolls one zero and prints it. Each zero has ability scores and modifiers, a birth augur (the lucky roll), hit points, saves, attack bonuses, an occupation with its weapon and trade goods, a piece of equipment, copper, languages, a race (human, or with `--demihumans` a dwarf, elf or halfling), a name (sometimes with a nickname) and two descriptive features. Features that imply an ability, such as a muscled back or a limp, only appear when that ability's modifier agrees.
 
 ```text
 Seed: 1
@@ -56,7 +56,7 @@ Languages: Common (reads and writes)
 XP: 0
 ```
 
-Every run prints the seed it used on its first line, with any options that change the dice, such as `Seed: 1 (heroic 50%, survivors)`. Run the same command with `--seed <n>` and the same options to roll exactly the same characters again.
+Every run prints the seed it used on its first line, with any options that change the dice, such as `Seed: 1 (heroic 50%, survivors, demihumans 25%)`. Run the same command with `--seed <n>` and the same options to roll exactly the same characters again.
 
 ## Options
 
@@ -67,6 +67,7 @@ Every run prints the seed it used on its first line, with any options that chang
 | `--alignment A` | `lawful`, `neutral` or `chaotic` | rolled for each zero | Gives every zero the same alignment. |
 | `--heroic [P]` | optional integer 1-100 | off: abilities are 3d6 | Rolls abilities as 4d6, dropping the lowest die. With a number, each zero has that percent chance of being rolled this way; bare `--heroic` means 100. Which zeros were rolled this way is never shown. |
 | `--survivors` | none | off | Rolls the hit die twice and keeps the higher result. |
+| `--demihumans P` | integer 1-100 | off: all human | Each zero has that percent chance of being a dwarf, elf or halfling. Demihumans get a racial language, traits and, for dwarves and halflings, a speed of 20. |
 | `--format F` | `text`, `json` or `ascii` | `text` | `text` prints the compact card above, `json` prints the seed, the settings and every zero's full record, and `ascii` prints each zero as a 64-column boxed character sheet. |
 | `--layout L` | `1-up` or `4-up` | `1-up` | `4-up` prints ASCII sheets four to a page on a 2x2 grid, 130 columns wide, with a form feed between pages and blank sheets filling the last page. Needs `--format ascii`. |
 | `--help`, `-h` | none | - | Prints the usage. |
@@ -76,6 +77,7 @@ Examples:
 ```text
 zeros roll --count 4 --alignment chaotic
 zeros roll --count 8 --heroic 25 --survivors
+zeros roll --count 8 --demihumans 25
 zeros roll --count 4 --format ascii --layout 4-up > funnel.txt
 zeros roll --seed 1234 --format json
 ```

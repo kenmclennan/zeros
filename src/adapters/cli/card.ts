@@ -4,7 +4,9 @@ import {
   featureText,
   languages,
   luckyRollText,
+  occupationTitle,
   signed,
+  traitsText,
   weaponText,
 } from "./wording.js";
 
@@ -27,8 +29,10 @@ function abilityCell(zero: Zero, name: (typeof abilityNames)[number]): string {
 export function renderCard(zero: Zero): string {
   const [str, agi, sta, per, int, lck] = abilityNames.map((name) => abilityCell(zero, name));
   const { occupation } = zero;
+  const sex = zero.race === "human" ? zero.sex : `${zero.sex} ${zero.race}`;
+  const traits = zero.traits.length === 0 ? [] : [`Traits: ${traitsText(zero)}`];
   return [
-    `${zero.name.display} - ${zero.sex}, ${capitalise(zero.alignment)} ${occupation.name}`,
+    `${zero.name.display} - ${sex}, ${capitalise(zero.alignment)} ${occupationTitle(zero)}`,
     `Features: ${featureText(zero)}`,
     `${str}  ${agi}  ${sta}`,
     `${per}  ${int}  ${lck}`,
@@ -41,6 +45,7 @@ export function renderCard(zero: Zero): string {
     `Equipment: ${zero.equipment}`,
     `Copper: ${zero.money.copper}`,
     `Languages: ${languages(zero)}`,
+    ...traits,
     `XP: ${zero.experience}`,
   ].join("\n");
 }

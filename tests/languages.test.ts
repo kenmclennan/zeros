@@ -17,7 +17,12 @@ describe("languages", () => {
     [16, 2, true],
     [18, 3, true],
   ])("every edge: Int %i gives %i extra, reads and writes %s", (int, extra, reads) => {
-    expect(languages(int)).toEqual({ common: true, extraLanguages: extra, canReadAndWrite: reads });
+    expect(languages(int)).toEqual({
+      common: true,
+      racial: null,
+      extraLanguages: extra,
+      canReadAndWrite: reads,
+    });
   });
 
   it.each([
