@@ -5,6 +5,7 @@ export { type LuckyRoll, lookupAugur, type SheetNumber } from "./luck.js";
 export type { Sex, ZeroName } from "./name.js";
 export { lookupOccupation, type Occupation } from "./occupation.js";
 export type { Dice } from "./ports/dice.js";
+export type { Race, RacialLanguage } from "./race.js";
 export { abilityModifierTable } from "./tables/ability-modifiers.js";
 export {
   type DescriptionCategory,

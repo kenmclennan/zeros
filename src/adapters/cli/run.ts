@@ -27,16 +27,26 @@ export function run(argv: string[], io: Io): number {
     ...(args.alignment === null ? {} : { alignment: args.alignment }),
     heroicChance: args.heroicChance,
     survivors: args.survivors,
+    demihumanChance: args.demihumanChance,
   };
   const zeros: Zero[] = [];
   for (let i = 0; i < args.count; i++) zeros.push(rollZero(dice, options));
 
   if (args.format === "ascii") {
-    io.stdout(renderAscii(seed, args.heroicChance, zeros, args.layout, args.survivors));
+    io.stdout(
+      renderAscii(
+        seed,
+        args.heroicChance,
+        zeros,
+        args.layout,
+        args.survivors,
+        args.demihumanChance,
+      ),
+    );
   } else if (args.format === "json") {
-    io.stdout(renderJson(seed, args.heroicChance, zeros, args.survivors));
+    io.stdout(renderJson(seed, args.heroicChance, zeros, args.survivors, args.demihumanChance));
   } else {
-    io.stdout(renderText(seed, args.heroicChance, zeros, args.survivors));
+    io.stdout(renderText(seed, args.heroicChance, zeros, args.survivors, args.demihumanChance));
   }
   return 0;
 }

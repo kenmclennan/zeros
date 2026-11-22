@@ -61,6 +61,7 @@ describe("seeded dice", () => {
           "canReadAndWrite": true,
           "common": true,
           "extraLanguages": 0,
+          "racial": null,
         },
         "luckyRoll": {
           "appliesTo": null,
@@ -93,6 +94,7 @@ describe("seeded dice", () => {
         },
         "sex": "female",
         "speed": 30,
+        "traits": [],
       }
     `);
     expect(rollZero(createSeededDice(2))).toMatchInlineSnapshot(`
@@ -151,6 +153,7 @@ describe("seeded dice", () => {
           "canReadAndWrite": true,
           "common": true,
           "extraLanguages": 1,
+          "racial": null,
         },
         "luckyRoll": {
           "appliesTo": "speed",
@@ -183,6 +186,7 @@ describe("seeded dice", () => {
         },
         "sex": "female",
         "speed": 30,
+        "traits": [],
       }
     `);
   });

@@ -65,9 +65,17 @@ describe("cli", () => {
       heroic: false,
       heroicChance: 0,
       survivors: false,
+      demihumanChance: 0,
       zeros: expected,
     });
-    expect(Object.keys(out)).toEqual(["seed", "heroic", "heroicChance", "survivors", "zeros"]);
+    expect(Object.keys(out)).toEqual([
+      "seed",
+      "heroic",
+      "heroicChance",
+      "survivors",
+      "demihumanChance",
+      "zeros",
+    ]);
     expect(out.zeros[0].features).toEqual([
       { category: "Adornment and Marks", feature: "a bone pin through the ear" },
       { category: "Garb", feature: "a kilt of woven grass" },

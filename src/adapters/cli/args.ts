@@ -11,6 +11,7 @@ export interface RollArgs {
   alignment: Alignment | null;
   heroicChance: number;
   survivors: boolean;
+  demihumanChance: number;
   format: Format;
   layout: Layout;
 }
@@ -24,7 +25,7 @@ const formats: readonly string[] = ["text", "json", "ascii"];
 const layouts: readonly string[] = ["1-up", "4-up"];
 
 export const usage = `Usage:
-  zeros roll [--count N] [--seed S] [--alignment lawful|neutral|chaotic] [--heroic [P]] [--survivors] [--format text|json|ascii] [--layout 1-up|4-up]
+  zeros roll [--count N] [--seed S] [--alignment lawful|neutral|chaotic] [--heroic [P]] [--survivors] [--demihumans P] [--format text|json|ascii] [--layout 1-up|4-up]
   zeros --help | -h
 
 Options:
@@ -33,6 +34,7 @@ Options:
   --alignment A    fix every zero's alignment: lawful, neutral or chaotic (default: rolled)
   --heroic [P]     roll abilities as 4d6, dropping the lowest die, for P% of characters (default 100; without the flag, 3d6)
   --survivors      roll the hit die twice and keep the higher result (default off)
+  --demihumans P   P% of zeros are dwarves, elves or halflings (default: all human)
   --format F       text, json or ascii (default text)
   --layout L       1-up or 4-up: four sheets per page on a 2x2 grid (ascii only; default 1-up)
   --help, -h       print this help
@@ -78,8 +80,40 @@ function extractHeroic(argv: string[]): { rest: string[]; chance: number } | str
   return { rest, chance };
 }
 
+const demihumansFlag = "--demihumans";
+const demihumansMessage = "--demihumans needs a percentage from 1 to 100";
+
+function extractDemihumans(argv: string[]): { rest: string[]; chance: number } | string {
+  const rest: string[] = [];
+  let chance = 0;
+  for (let i = 0; i < argv.length; i++) {
+    const token = argv[i] as string;
+    if (token === "--") {
+      rest.push(...argv.slice(i));
+      break;
+    }
+    let raw: string | undefined;
+    if (token === demihumansFlag) {
+      raw = argv[i + 1] ?? "";
+      i++;
+    } else if (token.startsWith(`${demihumansFlag}=`)) {
+      raw = token.slice(demihumansFlag.length + 1);
+    }
+    if (raw === undefined) {
+      rest.push(token);
+      continue;
+    }
+    const result = parseInteger(demihumansFlag, raw, 1, 100);
+    if (typeof result === "string") return demihumansMessage;
+    chance = result;
+  }
+  return { rest, chance };
+}
+
 export function parseCli(argv: string[]): ParsedArgs {
-  const extracted = extractHeroic(argv);
+  const withoutDemihumans = extractDemihumans(argv);
+  if (typeof withoutDemihumans === "string") return { kind: "error", message: withoutDemihumans };
+  const extracted = extractHeroic(withoutDemihumans.rest);
   if (typeof extracted === "string") return { kind: "error", message: extracted };
 
   let parsed: ReturnType<typeof parseOptions>;
@@ -144,6 +178,7 @@ export function parseCli(argv: string[]): ParsedArgs {
     alignment,
     heroicChance: extracted.chance,
     survivors: values.survivors === true,
+    demihumanChance: withoutDemihumans.chance,
     format,
     layout,
   };

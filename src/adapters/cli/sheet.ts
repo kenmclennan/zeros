@@ -4,7 +4,9 @@ import {
   featureText,
   languages,
   luckyRollText,
+  occupationTitle,
   signed,
+  traitsText,
   weaponText,
 } from "./wording.js";
 
@@ -113,7 +115,10 @@ export function renderSheet(zero: Zero): string {
   return [
     fullRule,
     ...headerLines(name, `0-level, XP ${zero.experience}`),
-    ...headerLines(`${capitalise(zero.sex)} human, ${capitalise(zero.alignment)}`, occupation.name),
+    ...headerLines(
+      `${capitalise(zero.sex)} ${zero.race}, ${capitalise(zero.alignment)}`,
+      occupationTitle(zero),
+    ),
     fullRule,
     ...paragraph(capitalise(featureText(zero))),
     splitRule,
@@ -133,6 +138,7 @@ export function renderSheet(zero: Zero): string {
     ...labelled("TRADE", occupation.tradeGoods),
     ...labelled("COPPER", String(zero.money.copper)),
     ...labelled("LANGUAGES", languages(zero)),
+    ...(zero.traits.length === 0 ? [] : labelled("TRAITS", traitsText(zero))),
     fullRule,
     ...labelled("LUCKY ROLL", luckyRollText(zero)),
     fullRule,
@@ -158,6 +164,7 @@ export const blankSheet = [
   boxed("TRADE"),
   boxed("COPPER"),
   boxed("LANGUAGES"),
+  boxed("TRAITS"),
   fullRule,
   boxed("LUCKY ROLL"),
   fullRule,

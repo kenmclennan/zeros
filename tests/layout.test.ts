@@ -23,6 +23,7 @@ const goldenBlank = `+----------------------------------------------------------
 | TRADE                                                        |
 | COPPER                                                       |
 | LANGUAGES                                                    |
+| TRAITS                                                       |
 +--------------------------------------------------------------+
 | LUCKY ROLL                                                   |
 +--------------------------------------------------------------+`;
@@ -134,8 +135,6 @@ describe("4-up layout", () => {
     const rowOne = (output.split("\n\n")[1] as string).split("\n");
     expect(rowOne).toHaveLength(tallHeight);
     expect(rowOne[tallHeight - 1]).toBe((first as string).split("\n").at(-1));
-    expect(rowOne[shortHeight]?.slice(66)).toBe(
-      blankSheet.split("\n")[shortHeight]?.trimEnd() ?? "",
-    );
+    expect(rowOne[shortHeight]?.slice(66)).toBe("");
   });
 });
