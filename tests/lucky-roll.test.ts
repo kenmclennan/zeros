@@ -17,7 +17,7 @@ const texts = [
   "Born in a smuggler's tunnel: Find secret doors",
   "Seventh child of a witch: Spellcasting rolls",
   "Born as the sorcerer's tower burned: Spell damage",
-  "Blessed at a forgotten altar: Turn unholy checks",
+  "Blessed at a forgotten altar: Drive back the defiler checks",
   "Lived through the red plague: Magical healing",
   "Born under the serpent star: Saving throws",
   "Watched by an ancestor's ghost: Saving throws to escape traps",
