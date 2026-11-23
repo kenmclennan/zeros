@@ -246,7 +246,7 @@ export const occupationTable: readonly OccupationRow[] = [
     name: "Smuggler",
     weapon: "Dagger",
     fightsAs: "Dagger",
-    tradeGoods: "Hidden-pocket girdle",
+    tradeGoods: "Hidden-pocket belt",
   },
   {
     from: 48,
