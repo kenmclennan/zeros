@@ -20,7 +20,7 @@ Ken's d100 sword-and-sorcery occupation table. The bracketed weapon is the stand
 | 21 | Escaped Captive | Club | Broken manacles |
 | 22-23 | Fisher from the Delta | Net (club) | Jar of salted fish |
 | 24-25 | Herbalist | Knife (dagger) | Bundle of dried herbs |
-| 26 | Holy Pilgrim | Staff | Cheap wooden idol |
+| 26 | Pilgrim | Staff | Cheap wooden idol |
 | 27-28 | Jewel Merchant | Dagger | Tiny carved gem |
 | 29 | Lotus-Eater | Razor (dagger) | Pouch of lotus leaves |
 | 30-31 | Merchant of Spices | Dagger | Sack of rare incense |
@@ -52,7 +52,7 @@ Ken's d100 sword-and-sorcery occupation table. The bracketed weapon is the stand
 | 64 | Beast Trainer | Whip | Trained monkey |
 | 65 | Brickmaker | Club | Mud brick |
 | 66 | Caravan Guard | Spear | Bag of rare spices |
-| 67 | Copper Miner | Pick (as club) | Lantern |
+| 67 | Copper Miner | Pick (as club) | Clay oil lamp |
 | 68 | Headsman | Executioners Sword (2H) | Hideous mask |
 | 69 | Tracker | Bow (short) | Hyena pelt |
 | 70 | Dune Nomad | Spear | Water skin |

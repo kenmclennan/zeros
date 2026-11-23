@@ -49,7 +49,11 @@ export const augurTable: readonly Augur[] = [
   { roll: 12, text: "Born in a smuggler's tunnel: Find secret doors", appliesTo: null },
   { roll: 13, text: "Seventh child of a witch: Spellcasting rolls", appliesTo: null },
   { roll: 14, text: "Born as the sorcerer's tower burned: Spell damage", appliesTo: null },
-  { roll: 15, text: "Blessed at a forgotten altar: Turn unholy checks", appliesTo: null },
+  {
+    roll: 15,
+    text: "Blessed at a forgotten altar: Drive back the defiler checks",
+    appliesTo: null,
+  },
   { roll: 16, text: "Lived through the red plague: Magical healing", appliesTo: null },
   { roll: 17, text: "Born under the serpent star: Saving throws", appliesTo: "all-saves" },
   {

@@ -139,7 +139,7 @@ export const occupationTable: readonly OccupationRow[] = [
   {
     from: 26,
     to: 26,
-    name: "Holy Pilgrim",
+    name: "Pilgrim",
     weapon: "Staff",
     fightsAs: "Staff",
     tradeGoods: "Cheap wooden idol",
@@ -398,7 +398,7 @@ export const occupationTable: readonly OccupationRow[] = [
     name: "Copper Miner",
     weapon: "Pick (as club)",
     fightsAs: "Club",
-    tradeGoods: "Lantern",
+    tradeGoods: "Clay oil lamp",
   },
   {
     from: 68,
