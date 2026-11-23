@@ -33,7 +33,7 @@ Ken's d100 sword-and-sorcery occupation table. The bracketed weapon is the stand
 | 40-41 | Potter | Dagger | Clay jug |
 | 42-43 | Sailor of the Inland Sea | Spear | Coiled rope |
 | 44-46 | Goat Herder | Sling | Goat |
-| 47 | Smuggler | Dagger | Hidden-pocket girdle |
+| 47 | Smuggler | Dagger | Hidden-pocket belt |
 | 48-49 | Soldier of the City-State | Spear | Bronze shield |
 | 50 | Spice Trader | Dagger | Bag of saffron |
 | 51 | Stonemason | Hammer | Copper chisel |

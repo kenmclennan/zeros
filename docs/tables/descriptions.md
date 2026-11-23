@@ -17,7 +17,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 7   | Voice           |
 | 8   | Arms and Hands  |
 | 9   | Build           |
-| 10  | Legs and Feet   |
+| 10  | Habit           |
 
 ### Male 1. Hair
 
@@ -84,7 +84,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 9   | a pox-pitted face            |         |
 | 10  | a great hooked nose          |         |
 | 11  | clean-cut, aquiline features |         |
-| 12  | a wen on the brow            |         |
+| 12  | a fleshy lump on the brow    |         |
 | 13  | smoldering, deep-set eyes    |         |
 | 14  | a heavy, brutish jaw         |         |
 | 15  | a split, swollen lip         |         |
@@ -125,14 +125,14 @@ Every zero gets two features from two different categories of its sex's set: rol
 | --- | --------------------------------------- | ------- |
 | 1   | a filthy loin-cloth and nothing else    |         |
 | 2   | a coarse wool tunic, patched            |         |
-| 3   | leather breeks and sandals              |         |
+| 3   | leather breeches and sandals            |         |
 | 4   | a greasy sheepskin coat                 |         |
 | 5   | a stained white kaftan                  |         |
-| 6   | a goatskin cloak, hair outward          |         |
+| 6   | a shaggy goatskin cloak                 |         |
 | 7   | a mangy leopard-skin tunic              |         |
 | 8   | a crimson scarf about the head          |         |
 | 9   | a frayed linen kilt                     |         |
-| 10  | a brass-bound leather girdle            |         |
+| 10  | a brass-bound leather belt              |         |
 | 11  | a hooded mantle, mud-hemmed             |         |
 | 12  | wide silken breeches, faded             |         |
 | 13  | a bronze-studded harness over bare skin |         |
@@ -149,7 +149,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | d20 | Feature                        | Implies |
 | --- | ------------------------------ | ------- |
 | 1   | a slinking, furtive manner     |         |
-| 2   | a swagger, thumbs in girdle    |         |
+| 2   | a swagger, thumbs in belt      |         |
 | 3   | a shambling gait               | AGI-    |
 | 4   | a stiff, straight back         |         |
 | 5   | a stoop                        |         |
@@ -235,39 +235,39 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 10  | a tall, gangling frame       |         |
 | 11  | a thick bull neck            | STR+    |
 | 12  | a chest hairy as a bear's    |         |
-| 13  | a sun-burnt, hairless breast |         |
+| 13  | a sun-burnt, hairless chest  |         |
 | 14  | a hunched, crooked spine     |         |
 | 15  | a spear-scar under the ribs  |         |
 | 16  | a lithe, supple body         | AGI+    |
 | 17  | a soft, pale belly           | STR-    |
-| 18  | a sweat-gleaming hide        |         |
+| 18  | skin gleaming with sweat     |         |
 | 19  | a narrow, bird-like chest    | STR-    |
 | 20  | a giant's thick frame        | STR+    |
 
-### Male 10. Legs and Feet
+### Male 10. Habit
 
-| d20 | Feature                         | Implies |
-| --- | ------------------------------- | ------- |
-| 1   | bare, horn-soled feet           |         |
-| 2   | thick, knotted legs             | STR+    |
-| 3   | a limp from an old wound        | AGI-    |
-| 4   | bow legs from the saddle        |         |
-| 5   | calves scarred by thorns        |         |
-| 6   | stolen boots, too big           |         |
-| 7   | a dog-bite scar on the ankle    |         |
-| 8   | a missing toe                   |         |
-| 9   | spindly, knob-kneed shanks      | STR-    |
-| 10  | a club foot                     | AGI-    |
-| 11  | legs mud-caked to the knee      |         |
-| 12  | ankles galled by fetters        |         |
-| 13  | long, lean legs                 | AGI+    |
-| 14  | feet wrapped in rags            |         |
-| 15  | short, sturdy legs              | STA+    |
-| 16  | upturned slippers, worn through |         |
-| 17  | burn scars on the shins         |         |
-| 18  | a festering sore on one shin    |         |
-| 19  | sun-browned, hard calves        |         |
-| 20  | quick, sure feet                | AGI+    |
+| d20 | Feature                        | Implies |
+| --- | ------------------------------ | ------- |
+| 1   | chews on a reed                |         |
+| 2   | cracks knuckles when idle      |         |
+| 3   | mutters to the gods            |         |
+| 4   | picks teeth with a knife-point |         |
+| 5   | never sits with back to a door |         |
+| 6   | spits before speaking          |         |
+| 7   | counts coins over and over     |         |
+| 8   | hums tunelessly                |         |
+| 9   | sniffs food before eating      |         |
+| 10  | whittles at a stick            |         |
+| 11  | touches a charm at every oath  |         |
+| 12  | talks to a pet rat             |         |
+| 13  | drinks before noon             |         |
+| 14  | laughs at others' pain         |         |
+| 15  | sleeps sitting up              |         |
+| 16  | bites coins to test them       |         |
+| 17  | scratches at old scars         |         |
+| 18  | boasts of past fights          |         |
+| 19  | spits to the left for luck     |         |
+| 20  | keeps one hand near a knife    |         |
 
 ## Female Set
 
@@ -282,7 +282,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 7   | Voice               |
 | 8   | Arms and Hands      |
 | 9   | Build               |
-| 10  | Legs and Feet       |
+| 10  | Habit               |
 
 ### Female 1. Hair
 
@@ -296,7 +296,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 6   | hair cropped short as a boy's      |         |
 | 7   | tangled, lice-ridden locks         |         |
 | 8   | hair dyed with henna               |         |
-| 9   | a tall, pinned-up coiffure         |         |
+| 9   | hair pinned up high                |         |
 | 10  | tawny hair bound in a cloth        |         |
 | 11  | ringlets oiled and scented         |         |
 | 12  | gray hair in a thin knot           |         |
@@ -304,7 +304,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 14  | hair bleached by sun and salt      |         |
 | 15  | red hair wild as fire              |         |
 | 16  | braids threaded with copper wire   |         |
-| 17  | hair caught in a bronze fillet     |         |
+| 17  | hair bound by a bronze band        |         |
 | 18  | a hacked, ragged crop              |         |
 | 19  | hair under a dusty headcloth       |         |
 | 20  | glossy black hair, center-parted   |         |
@@ -389,7 +389,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | d20 | Feature                          | Implies |
 | --- | -------------------------------- | ------- |
 | 1   | a coarse, patched shift          |         |
-| 2   | a girdled tunic and sandals      |         |
+| 2   | a belted tunic and sandals       |         |
 | 3   | a smoke-stained sheepskin coat   |         |
 | 4   | a moth-eaten leopard-skin wrap   |         |
 | 5   | faded silks                      |         |
@@ -404,7 +404,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 14  | a salt-stiffened sailcloth smock |         |
 | 15  | a dusty kaftan and veil          |         |
 | 16  | a kilt of woven grass            |         |
-| 17  | a brass-buckled girdle           |         |
+| 17  | a brass-buckled belt             |         |
 | 18  | a stolen silk sash               |         |
 | 19  | a shawl of goat hair             |         |
 | 20  | a wolfskin over the shoulders    |         |
@@ -509,27 +509,27 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 19  | a frail, sickly frame         | STA-    |
 | 20  | a powerful, muscled frame     | STR+    |
 
-### Female 10. Legs and Feet
+### Female 10. Habit
 
 | d20 | Feature                         | Implies |
 | --- | ------------------------------- | ------- |
-| 1   | bare, hard-soled feet           |         |
-| 2   | pale, slender bare feet         |         |
-| 3   | a limp from an old break        | AGI-    |
-| 4   | anklets clashing at each step   |         |
-| 5   | legs scratched by thorns        |         |
-| 6   | scabbed, insect-bitten legs     |         |
-| 7   | feet bound in rags              |         |
-| 8   | a missing toe                   |         |
-| 9   | long, fleet legs                | AGI+    |
-| 10  | short, sturdy legs              | STA+    |
-| 11  | legs mud-caked to the knee      |         |
-| 12  | fetter-galled ankles            |         |
-| 13  | soft boots, much mended         |         |
-| 14  | bow legs from the saddle        |         |
-| 15  | knobby knees                    |         |
-| 16  | a club foot                     | AGI-    |
-| 17  | a stab-scar on the calf         |         |
-| 18  | burn scars on the shins         |         |
-| 19  | hard, calloused feet            |         |
-| 20  | upturned slippers, worn through |         |
+| 1   | chews a sliver of resin         |         |
+| 2   | twists a lock of hair           |         |
+| 3   | hums old cradle-songs           |         |
+| 4   | mutters charms under the breath |         |
+| 5   | never sits with back to a door  |         |
+| 6   | bites at fingernails            |         |
+| 7   | haggles over everything         |         |
+| 8   | counts and recounts coins       |         |
+| 9   | sniffs food before eating       |         |
+| 10  | spits for luck                  |         |
+| 11  | tells fortunes unasked          |         |
+| 12  | keeps a knife in a sleeve       |         |
+| 13  | laughs too loudly               |         |
+| 14  | touches an amulet when afraid   |         |
+| 15  | sings while working             |         |
+| 16  | talks to the dead               |         |
+| 17  | hoards scraps of food           |         |
+| 18  | wakes at the slightest sound    |         |
+| 19  | gossips endlessly               |         |
+| 20  | picks at scabs                  |         |

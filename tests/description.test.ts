@@ -39,8 +39,11 @@ describe("description", () => {
     const values = [3, 7, 3, 3, 10, 20];
     const dice = scriptedDice(values);
     const features = rollFeatures(dice, "male", abilitiesWith({ agility: 1 }));
-    expect(features.map((f) => f.feature)).toEqual(["strong white teeth", "quick, sure feet"]);
-    expect(features.map((f) => f.category)).toEqual(["Face", "Legs and Feet"]);
+    expect(features.map((f) => f.feature)).toEqual([
+      "strong white teeth",
+      "keeps one hand near a knife",
+    ]);
+    expect(features.map((f) => f.category)).toEqual(["Face", "Habit"]);
     expect(dice.sidesAsked).toEqual([10, 20, 10, 10, 10, 20]);
     expect(dice.consumed()).toBe(values.length);
   });
@@ -70,31 +73,30 @@ describe("description", () => {
   });
 
   it("skips a contradicting or zero modifier and keeps an agreeing one", () => {
-    const legs = descriptionTables.male[9]?.features ?? [];
-    expect(legs[2]).toMatchObject({ implies: "AGI-" });
-    expect(legs[3]?.implies).toBeUndefined();
+    const build = descriptionTables.male[8]?.features ?? [];
+    expect(build[2]).toMatchObject({ implies: "STA+" });
+    expect(build[3]?.implies).toBeUndefined();
     const roll = (abilities: Record<AbilityName, AbilityScore>) =>
-      rollFeatures(scriptedDice([10, 3, 1, 1]), "male", abilities)[0]?.feature;
-    expect(roll(strong)).toBe(legs[3]?.text);
-    expect(roll(neutral)).toBe(legs[3]?.text);
-    expect(roll(weak)).toBe(legs[2]?.text);
+      rollFeatures(scriptedDice([9, 3, 1, 1]), "male", abilities)[0]?.feature;
+    expect(roll(strong)).toBe(build[2]?.text);
+    expect(roll(neutral)).toBe(build[3]?.text);
+    expect(roll(weak)).toBe(build[3]?.text);
   });
 
   it("keeps a plus feature at plus one and skips it at zero", () => {
-    const legs = descriptionTables.male[9]?.features ?? [];
-    expect(legs[12]).toMatchObject({ text: "long, lean legs", implies: "AGI+" });
+    const build = descriptionTables.male[8]?.features ?? [];
+    expect(build[15]).toMatchObject({ text: "a lithe, supple body", implies: "AGI+" });
     const roll = (abilities: Record<AbilityName, AbilityScore>) =>
-      rollFeatures(scriptedDice([10, 13, 1, 1]), "male", abilities)[0]?.feature;
-    expect(roll(abilitiesWith({ agility: 1 }))).toBe("long, lean legs");
-    expect(roll(neutral)).toBe(legs[13]?.text);
+      rollFeatures(scriptedDice([9, 16, 1, 1]), "male", abilities)[0]?.feature;
+    expect(roll(abilitiesWith({ agility: 1 }))).toBe("a lithe, supple body");
+    expect(roll(neutral)).toBe(build[17]?.text);
   });
 
-  it("wraps from entry 20 to entry 1", () => {
-    const legs = descriptionTables.male[9]?.features ?? [];
-    expect(legs[19]).toMatchObject({ text: "quick, sure feet", implies: "AGI+" });
-    expect(legs[0]?.implies).toBeUndefined();
-    const wrapped = rollFeatures(scriptedDice([10, 20, 1, 1]), "male", neutral);
-    expect(wrapped[0]?.feature).toBe(legs[0]?.text);
+  it("wraps from entry 20 to the first allowed entry", () => {
+    const build = descriptionTables.male[8]?.features ?? [];
+    expect(build[19]).toMatchObject({ text: "a giant's thick frame", implies: "STR+" });
+    const wrapped = rollFeatures(scriptedDice([9, 20, 1, 1]), "male", neutral);
+    expect(wrapped[0]?.feature).toBe(build[3]?.text);
   });
 
   it("leaves an untagged roll the same whatever the abilities", () => {
