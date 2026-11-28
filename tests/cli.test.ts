@@ -33,7 +33,7 @@ Copper: 29
 Languages: Common (reads and writes)
 XP: 0
 
-Markeen the Tall - male, Lawful Headsman
+Markeen the Truthful - male, Lawful Headsman
 Features: shoulders hunched as if cold; huge, knotted knuckles
 STR 13 (+1)  AGI  6 (-1)  STA  8 (-1)
 PER  7 (-1)  INT 11 (+0)  LCK 13 (+1)
