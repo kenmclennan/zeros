@@ -19,7 +19,7 @@ function json(...args: string[]) {
 const golden = `Seed: 1
 
 Pashai - female, Lawful Philosopher
-Features: a bone pin through the ear; a kilt of woven grass
+Features: has a bone pin through the ear; a kilt of woven grass
 STR  9 (+0)  AGI 14 (+1)  STA 12 (+0)
 PER 12 (+0)  INT  6 (-1)  LCK  5 (-2)
 HP 4  AC 11  Init +1  Speed 30
@@ -34,7 +34,7 @@ Languages: Common (reads and writes)
 XP: 0
 
 Markeen the Truthful - male, Lawful Fisher of the Reeds
-Features: shoulders hunched as if cold; huge, knotted knuckles
+Features: shoulders hunched; huge, knotted knuckles
 STR 13 (+1)  AGI  6 (-1)  STA  8 (-1)
 PER  7 (-1)  INT 11 (+0)  LCK 13 (+1)
 HP 1  AC 9  Init -1  Speed 30
@@ -77,7 +77,7 @@ describe("cli", () => {
       "zeros",
     ]);
     expect(out.zeros[0].features).toEqual([
-      { category: "Adornment and Marks", feature: "a bone pin through the ear" },
+      { category: "Adornment and Marks", feature: "has a bone pin through the ear" },
       { category: "Garb", feature: "a kilt of woven grass" },
     ]);
     expect(Object.keys(out.zeros[0]).at(-1)).toBe("features");

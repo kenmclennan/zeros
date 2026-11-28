@@ -41,7 +41,7 @@ describe("description", () => {
     const features = rollFeatures(dice, "male", abilitiesWith({ agility: 1 }));
     expect(features.map((f) => f.feature)).toEqual([
       "strong white teeth",
-      "keeps one hand near a knife",
+      "keeps one hand near their weapon",
     ]);
     expect(features.map((f) => f.category)).toEqual(["Face", "Habit"]);
     expect(dice.sidesAsked).toEqual([10, 20, 10, 10, 10, 20]);

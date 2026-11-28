@@ -9,7 +9,7 @@ const golden = `+--------------------------------------------------------------+
 | PASHAI                                         0-level, XP 0 |
 | Female human, Lawful                             Philosopher |
 +--------------------------------------------------------------+
-| A bone pin through the ear; a kilt of woven grass            |
+| Has a bone pin through the ear; a kilt of woven grass        |
 +-------------------------------------+------------------------+
 |  STR  AGI  STA  PER  INT  LCK       | HP 4        AC 11      |
 |    9   14   12   12    6    5       | Init +1     Speed 30   |
