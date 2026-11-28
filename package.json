@@ -17,7 +17,7 @@
     "check": "npm run typecheck && npm run lint && npm run test && npm run format:md:check && npm run lint:md && npm run build"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.15",
+    "@biomejs/biome": "^2.6.8",
     "@types/node": "^24.0.0",
     "markdownlint": "^0.41.1",
     "prettier": "^3.9.9",
