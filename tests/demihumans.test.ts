@@ -85,7 +85,7 @@ describe("demihuman gate", () => {
 
   it("rolls the gate directly after the occupation and before equipment", () => {
     const { dice } = rollWith([10, 1], 50);
-    expect(dice.sidesAsked.slice(20, 24)).toEqual([100, 100, 3, 24]);
+    expect(dice.sidesAsked.slice(20, 24)).toEqual([79, 100, 3, 24]);
   });
 
   it.each([
@@ -112,7 +112,7 @@ describe("demihuman gate", () => {
     const { zero, dice, total } = rollWith([3], 100);
     expect(zero.race).toBe("halfling");
     expect(dice.consumed()).toBe(total);
-    expect(dice.sidesAsked.slice(20, 23)).toEqual([100, 3, 24]);
+    expect(dice.sidesAsked.slice(20, 23)).toEqual([79, 3, 24]);
   });
 
   it("leaves every existing seed unchanged without the option", () => {

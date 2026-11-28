@@ -30,7 +30,7 @@ A 0-level funnel character generator for old-school fantasy RPGs. Hexagonal Type
 2. Each ability in turn (Strength, Agility, Stamina, Personality, Intelligence, Luck): three `roll(6)`, or four when heroic, keeping the highest three.
 3. `roll(30)` birth augur.
 4. `roll(4)` hit die, and a second `roll(4)` with survivors, keeping the higher.
-5. `roll(100)` occupation, `roll(24)` equipment, five `roll(12)` copper.
+5. `roll(n)` occupation, one die with a side per row of the occupation table, then `roll(24)` equipment, five `roll(12)` copper.
 6. `roll(6)` alignment, skipped when the caller fixes it.
 7. `roll(2)` sex, `roll(100)` name, `roll(100)` nickname chance (1-40 takes one) and only then `roll(100)` nickname.
 8. One die call per dice term in the trade goods.

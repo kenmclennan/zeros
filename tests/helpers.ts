@@ -1,4 +1,6 @@
-import type { Dice } from "../src/domain/index.js";
+import { type Dice, occupationTable } from "../src/domain/index.js";
+
+export const physicianRow = occupationTable.findIndex((row) => row.name === "Physician") + 1;
 
 export interface ScriptedDice extends Dice {
   sidesAsked: number[];

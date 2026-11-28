@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { lookupOccupation, occupationTable, rollZero, weaponTable } from "../src/domain/index.js";
-import { script, scriptedDice } from "./helpers.js";
+import { physicianRow, script, scriptedDice } from "./helpers.js";
 
 const called: Record<number, [string, string]> = {
   9: ["Longsword", "1d8"],
@@ -49,20 +49,34 @@ describe("occupation", () => {
       );
       return { zero: rollZero(dice), dice };
     };
-    const two = rolled(35, [2]);
+    const two = rolled(physicianRow, [2]);
     expect(two.zero.occupation.tradeGoods).toBe("2 doses of healing salve (1 hp each)");
     expect(two.dice.consumed()).toBe(36);
     expect(two.dice.sidesAsked.at(-5)).toBe(3);
-    expect(rolled(35, [1]).zero.occupation.tradeGoods).toBe("1 dose of healing salve (1 hp each)");
-    for (const roll of [34, 36]) {
+    expect(rolled(physicianRow, [1]).zero.occupation.tradeGoods).toBe(
+      "1 dose of healing salve (1 hp each)",
+    );
+    for (const roll of [physicianRow - 1, physicianRow + 1]) {
       const { zero, dice } = rolled(roll, []);
       expect(dice.consumed()).toBe(35);
-      expect(zero.occupation.tradeGoods).toBe(lookupOccupation(roll).tradeGoods);
+      expect(zero.occupation.tradeGoods).toBe(occupationTable[roll - 1]?.tradeGoods);
     }
   });
 
   it("covers the first and last rows", () => {
     expect(lookupOccupation(1).name).toBe("Acolyte of Forgotten Gods");
     expect(lookupOccupation(100).name).toBe("Astrologer-Priest");
+  });
+
+  it("reaches every row exactly once when the die returns each value", () => {
+    const names = [];
+    for (let row = 1; row <= occupationTable.length; row++) {
+      const dice = scriptedDice(script({}, 1, 1, [row, 1, 1, 1, 1, 1, 1, 1, 1, 1, 100, 1, 1, 1]));
+      const zero = rollZero(dice);
+      expect(dice.sidesAsked[20]).toBe(occupationTable.length);
+      names.push(zero.occupation.name);
+    }
+    expect(names).toEqual(occupationTable.map((entry) => entry.name));
+    expect(new Set(names).size).toBe(occupationTable.length);
   });
 });

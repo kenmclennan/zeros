@@ -34,7 +34,7 @@ describe("rollZero", () => {
   });
 
   it("rolls the new fields after call 20", () => {
-    const tail = [...Array(18).fill(6), 30, 4, 100, 24, 12, 12, 12, 12, 12, 6, 2, 100, 100];
+    const tail = [...Array(18).fill(6), 30, 4, 79, 24, 12, 12, 12, 12, 12, 6, 2, 100, 100];
     const featureSides = [10, 20, 10, 20];
     const plain = scriptedDice(script({}, 1, 1));
     rollZero(plain);
@@ -57,7 +57,7 @@ describe("rollZero", () => {
       scriptedDice([...first, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 100, ...descriptionRolls]),
     );
     const b = rollZero(
-      scriptedDice([...first, 99, 24, 12, 12, 12, 12, 12, 6, 2, 100, 100, ...descriptionRolls]),
+      scriptedDice([...first, 79, 24, 12, 12, 12, 12, 12, 6, 2, 100, 100, ...descriptionRolls]),
     );
     expect(a.abilities).toEqual(b.abilities);
     expect(a.hitPoints).toBe(b.hitPoints);

@@ -18,7 +18,7 @@ function json(...args: string[]) {
 
 const golden = `Seed: 1
 
-Pashai - female, Lawful Lotus-Eater
+Pashai - female, Lawful Philosopher
 Features: a bone pin through the ear; a kilt of woven grass
 STR  9 (+0)  AGI 14 (+1)  STA 12 (+0)
 PER 12 (+0)  INT  6 (-1)  LCK  5 (-2)
@@ -26,14 +26,14 @@ HP 4  AC 11  Init +1  Speed 30
 Attack: melee +0, missile +1
 Saves: Ref +1  Fort +0  Will +0
 Lucky roll: 12 (-2) Born in a smuggler's tunnel: Find secret doors
-Weapon: Razor (dagger), 1d4
-Trade goods: Pouch of lotus leaves
+Weapon: Staff, 1d4
+Trade goods: Wax tablet & stylus
 Equipment: Empty chest
 Copper: 29
 Languages: Common (reads and writes)
 XP: 0
 
-Markeen the Truthful - male, Lawful Headsman
+Markeen the Truthful - male, Lawful Fisher of the Reeds
 Features: shoulders hunched as if cold; huge, knotted knuckles
 STR 13 (+1)  AGI  6 (-1)  STA  8 (-1)
 PER  7 (-1)  INT 11 (+0)  LCK 13 (+1)
@@ -41,8 +41,8 @@ HP 1  AC 9  Init -1  Speed 30
 Attack: melee +1, missile -1
 Saves: Ref -1  Fort -1  Will -1
 Lucky roll: 13 (+1) Seventh child of a witch: Spellcasting rolls
-Weapon: Executioners Sword (2H), 1d10
-Trade goods: Hideous mask
+Weapon: Spear, 1d8
+Trade goods: Reed basket of fish
 Equipment: Torch
 Copper: 56
 Languages: Common (reads and writes)
