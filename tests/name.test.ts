@@ -17,9 +17,9 @@ describe("name", () => {
       nickname: null,
       display: "Araltuk",
     });
-    expect(name([1, 1, 3, 3]).zero.name.display).toBe("Araltuk Long-beard");
-    expect(name([1, 1, 1, 7]).zero.name.display).toBe("Araltuk the Arrogant");
-    expect(name([2, 1, 40, 3]).zero.name.display).toBe("Alherin the Bear");
+    expect(name([1, 1, 3, 3]).zero.name.display).toBe("Araltuk One-eye");
+    expect(name([1, 1, 1, 6]).zero.name.display).toBe("Araltuk the Arrogant");
+    expect(name([2, 1, 40, 9]).zero.name.display).toBe("Alherin the Bear");
     expect(name([2, 100, 41]).zero.name.given).toBe("Zilshana");
     expect(name([1, 100, 41]).zero.name.given).toBe("Yarakoor");
   });

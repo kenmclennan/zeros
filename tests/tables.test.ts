@@ -2,9 +2,8 @@ import { describe, expect, it } from "vitest";
 import {
   descriptionTables,
   femaleNames,
-  femaleNicknames,
   maleNames,
-  maleNicknames,
+  nicknames,
   occupationTable,
 } from "../src/domain/index.js";
 import {
@@ -20,8 +19,7 @@ const namesPath = "docs/tables/names.md";
 const nameTables = [
   { heading: "Male names", data: maleNames },
   { heading: "Female names", data: femaleNames },
-  { heading: "Male nicknames", data: maleNicknames },
-  { heading: "Female nicknames", data: femaleNicknames },
+  { heading: "Nicknames", data: nicknames },
 ];
 const occupationRows = readTable("docs/tables/professions.md");
 

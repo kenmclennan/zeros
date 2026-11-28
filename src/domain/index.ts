@@ -15,7 +15,7 @@ export {
 } from "./tables/descriptions.js";
 export { equipmentTable } from "./tables/equipment.js";
 export { type Augur, augurTable, type LuckTarget } from "./tables/lucky-roll.js";
-export { femaleNames, femaleNicknames, maleNames, maleNicknames } from "./tables/names.js";
+export { femaleNames, maleNames, nicknames } from "./tables/names.js";
 export { type OccupationRow, occupationTable } from "./tables/occupations.js";
 export { type WeaponRow, weaponTable } from "./tables/weapons.js";
 export { type RollOptions, rollZero, type Zero } from "./zero.js";

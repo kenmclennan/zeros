@@ -1,5 +1,5 @@
 import type { Dice } from "./ports/dice.js";
-import { femaleNames, femaleNicknames, maleNames, maleNicknames } from "./tables/names.js";
+import { femaleNames, maleNames, nicknames } from "./tables/names.js";
 
 export type Sex = "male" | "female";
 
@@ -28,6 +28,6 @@ export function rollName(dice: Dice, sex: Sex): ZeroName {
   const given = entry(sex === "male" ? maleNames : femaleNames, dice.roll(nameSides));
   const takesNickname = dice.roll(nicknameChanceSides) <= nicknameChance;
   if (!takesNickname) return { given, nickname: null, display: given };
-  const nickname = entry(sex === "male" ? maleNicknames : femaleNicknames, dice.roll(nameSides));
+  const nickname = entry(nicknames, dice.roll(nameSides));
   return { given, nickname, display: `${given} ${nickname}` };
 }

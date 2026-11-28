@@ -1,6 +1,6 @@
 # Names
 
-d100 name and nickname tables, adapted from the name tables in City Encounters (Open Game Content). A zero is male or female on an even roll and takes a name from that table. A zero has a 40% chance of a nickname from the nickname table for their sex.
+d100 name and nickname tables, adapted from the name tables in City Encounters (Open Game Content). A zero is male or female on an even roll and takes a name from that table. A zero has a 40% chance of a nickname from the nickname table.
 
 ## Male names
 
@@ -212,212 +212,107 @@ d100 name and nickname tables, adapted from the name tables in City Encounters (
 | 99   | Zenotra   |
 | 100  | Zilshana  |
 
-## Male nicknames
+## Nicknames
 
 | Roll | Entry             |
 | ---- | ----------------- |
 | 1    | Brown-hair        |
 | 2    | Green-eyes        |
-| 3    | Long-beard        |
-| 4    | One-eye           |
-| 5    | Red-hair          |
-| 6    | Silver-tongue     |
-| 7    | the Arrogant      |
-| 8    | the Bandy-legged  |
-| 9    | the Bankrupt      |
-| 10   | the Wolf          |
-| 11   | the Bear          |
-| 12   | the Beggar        |
-| 13   | the Blasphemer    |
-| 14   | the Stag          |
-| 15   | the Brilliant     |
-| 16   | the Bull          |
-| 17   | the Canny         |
-| 18   | the Carefree      |
-| 19   | the Boar          |
-| 20   | the Eagle         |
-| 21   | the Changeling    |
-| 22   | the Charming      |
-| 23   | the Cheap         |
-| 24   | the Cowardly      |
-| 25   | the Crow          |
-| 26   | the Cruel         |
-| 27   | the Cunning       |
-| 28   | the Curious       |
-| 29   | the Dagger        |
-| 30   | the Dandy         |
-| 31   | the Dreamer       |
-| 32   | the Drunken       |
-| 33   | the Bald          |
-| 34   | the Vulture       |
-| 35   | the Fearless      |
-| 36   | the Flatterer     |
-| 37   | the Hound         |
-| 38   | the Follower      |
-| 39   | the Foolish       |
-| 40   | the Forgetful     |
-| 41   | the Generous      |
-| 42   | the Ox            |
-| 43   | the Glorious      |
-| 44   | the Raven         |
-| 45   | the God-touched   |
-| 46   | the Grim          |
-| 47   | the Ram           |
-| 48   | the Handsome      |
-| 49   | the Hard-headed   |
-| 50   | the Haughty       |
-| 51   | the Heretic       |
-| 52   | the Honest        |
-| 53   | the Viper         |
-| 54   | the Inquisitive   |
-| 55   | the Jealous       |
-| 56   | the Scarred       |
-| 57   | the Lion          |
-| 58   | the Masterful     |
-| 59   | the Merry         |
-| 60   | the Mighty        |
-| 61   | the Miserly       |
-| 62   | the Noble-hearted |
-| 63   | the Scorpion      |
-| 64   | the Persuasive    |
-| 65   | the Hawk          |
-| 66   | the Pious         |
-| 67   | the Poetic        |
-| 68   | the Prophetic     |
-| 69   | the Proud         |
-| 70   | the Quick         |
-| 71   | the Rat           |
-| 72   | the Red           |
-| 73   | the Ribald        |
-| 74   | the Badger        |
-| 75   | the Scholar       |
-| 76   | the Servile       |
-| 77   | the Short         |
-| 78   | the Silent        |
-| 79   | the Sleeper       |
-| 80   | the Sly           |
-| 81   | the Smiling       |
-| 82   | the Sober         |
-| 83   | the Strong        |
-| 84   | the Jackal        |
-| 85   | the Sullen        |
-| 86   | the Suspicious    |
-| 87   | the Swift         |
-| 88   | the Talker        |
-| 89   | the Tall          |
-| 90   | the Thin          |
-| 91   | the Truthful      |
-| 92   | the Unmannerly    |
-| 93   | the Unpleasant    |
-| 94   | the Unready       |
-| 95   | the Untrustworthy |
-| 96   | the Vain          |
-| 97   | the Wary          |
-| 98   | the Wealthy       |
-| 99   | the Hyena         |
-| 100  | the Whisperer     |
-
-## Female nicknames
-
-| Roll | Entry             |
-| ---- | ----------------- |
-| 1    | Brown-hair        |
-| 2    | Green-eyes        |
-| 3    | the Bear          |
-| 4    | One-eye           |
-| 5    | Red-hair          |
+| 3    | One-eye           |
+| 4    | Red-hair          |
+| 5    | Silver-tongue     |
 | 6    | the Arrogant      |
-| 7    | the Bandy-legged  |
-| 8    | the Exile         |
-| 9    | the Dagger        |
-| 10   | the Viper         |
-| 11   | the Blasphemous   |
-| 12   | the Masterful     |
-| 13   | the Falcon        |
+| 7    | the Bald          |
+| 8    | the Bandy-legged  |
+| 9    | the Bear          |
+| 10   | the Beggar        |
+| 11   | the Blasphemer    |
+| 12   | the Boar          |
+| 13   | the Bold          |
 | 14   | the Brilliant     |
-| 15   | the Mighty        |
+| 15   | the Bull          |
 | 16   | the Canny         |
 | 17   | the Carefree      |
-| 18   | the Eagle         |
-| 19   | the Cat           |
-| 20   | the Wolf          |
-| 21   | the Heretic       |
-| 22   | the Changeling    |
-| 23   | the Charming      |
-| 24   | the Cheap         |
-| 25   | the Ox            |
-| 26   | the Rat           |
-| 27   | the Cruel         |
-| 28   | the Cunning       |
-| 29   | the Curious       |
-| 30   | the Dreamer       |
-| 31   | the Crow          |
+| 18   | the Cat           |
+| 19   | the Charming      |
+| 20   | the Cheap         |
+| 21   | the Cowardly      |
+| 22   | the Crow          |
+| 23   | the Cruel         |
+| 24   | the Cunning       |
+| 25   | the Curious       |
+| 26   | the Dagger        |
+| 27   | the Dreamer       |
+| 28   | the Drunken       |
+| 29   | the Eagle         |
+| 30   | the Exile         |
+| 31   | the Falcon        |
 | 32   | the Fearless      |
 | 33   | the Flatterer     |
-| 34   | the Heron         |
-| 35   | the Foolish       |
-| 36   | the Forgetful     |
-| 37   | the Forthright    |
-| 38   | the Generous      |
-| 39   | the Glorious      |
-| 40   | the Raven         |
-| 41   | the Fox           |
-| 42   | the Scorpion      |
-| 43   | the Grey          |
-| 44   | the Hard-headed   |
-| 45   | the Haughty       |
-| 46   | the Inquisitive   |
-| 47   | the Jealous       |
-| 48   | the Kind-hearted  |
-| 49   | the Knife         |
-| 50   | the Scarred       |
-| 51   | the Spider        |
-| 52   | the Bold          |
+| 34   | the Foolish       |
+| 35   | the Forgetful     |
+| 36   | the Fox           |
+| 37   | the Generous      |
+| 38   | the Glorious      |
+| 39   | the Grey          |
+| 40   | the Grim          |
+| 41   | the Hard-headed   |
+| 42   | the Haughty       |
+| 43   | the Hawk          |
+| 44   | the Heretic       |
+| 45   | the Honest        |
+| 46   | the Hound         |
+| 47   | the Hyena         |
+| 48   | the Inquisitive   |
+| 49   | the Jackal        |
+| 50   | the Jealous       |
+| 51   | the Knife         |
+| 52   | the Lion          |
 | 53   | the Lynx          |
-| 54   | the Lioness       |
-| 55   | the Man-killer    |
-| 56   | the Merry         |
+| 54   | the Masterful     |
+| 55   | the Merry         |
+| 56   | the Mighty        |
 | 57   | the Miserly       |
-| 58   | the Jackal        |
-| 59   | the Mysterious    |
-| 60   | the Noble-hearted |
-| 61   | the Hyena         |
-| 62   | the Grim          |
-| 63   | the Persuasive    |
-| 64   | the Owl           |
-| 65   | the Pious         |
-| 66   | the Poetic        |
-| 67   | the Prophetess    |
-| 68   | the Proud         |
-| 69   | the Quick         |
+| 58   | the Noble-hearted |
+| 59   | the Owl           |
+| 60   | the Ox            |
+| 61   | the Persuasive    |
+| 62   | the Pious         |
+| 63   | the Poetic        |
+| 64   | the Prophet       |
+| 65   | the Proud         |
+| 66   | the Quick         |
+| 67   | the Rat           |
+| 68   | the Raven         |
+| 69   | the Red           |
 | 70   | the Ribald        |
-| 71   | the Scholarly     |
-| 72   | the she-tiger     |
-| 73   | the Short         |
-| 74   | the Silent        |
-| 75   | the Serpent       |
-| 76   | the Unready       |
+| 71   | the Scarred       |
+| 72   | the Scholar       |
+| 73   | the Scorpion      |
+| 74   | the Serpent       |
+| 75   | the Short         |
+| 76   | the Silent        |
 | 77   | the Sly           |
 | 78   | the Smiling       |
 | 79   | the Sober         |
-| 80   | the Strong        |
-| 81   | the Sullen        |
-| 82   | the Suspicious    |
-| 83   | the Sweet         |
-| 84   | the Swift         |
-| 85   | the Tall          |
-| 86   | the Thin          |
-| 87   | the Truthful      |
-| 88   | the Twin          |
-| 89   | the Unmannerly    |
-| 90   | the Unpleasant    |
-| 91   | the Untrustworthy |
-| 92   | the Vain          |
-| 93   | the Vicious       |
-| 94   | the Honest        |
-| 95   | the Wary          |
-| 96   | the Wealthy       |
-| 97   | the Hawk          |
-| 98   | the Whisperer     |
-| 99   | the Wicked        |
-| 100  | the Witch         |
+| 80   | the Spider        |
+| 81   | the Stag          |
+| 82   | the Strong        |
+| 83   | the Sullen        |
+| 84   | the Suspicious    |
+| 85   | the Swift         |
+| 86   | the Tall          |
+| 87   | the Thin          |
+| 88   | the Tiger         |
+| 89   | the Truthful      |
+| 90   | the Unmannerly    |
+| 91   | the Unpleasant    |
+| 92   | the Unready       |
+| 93   | the Untrustworthy |
+| 94   | the Vain          |
+| 95   | the Viper         |
+| 96   | the Vulture       |
+| 97   | the Wary          |
+| 98   | the Wealthy       |
+| 99   | the Whisperer     |
+| 100  | the Wolf          |
