@@ -1,6 +1,6 @@
 # Ancient world occupations
 
-Ken's d100 sword-and-sorcery occupation table. The bracketed weapon is the standard weapon it fights as.
+Ken's d100 sword-and-sorcery occupation table. The bracketed weapon is the standard weapon it fights as. The generator gives every occupation an equal chance and ignores the roll ranges, which are for rolling at the table.
 
 | Roll | Occupation | Weapon | Trade goods |
 | --- | --- | --- | --- |

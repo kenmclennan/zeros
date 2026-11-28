@@ -7,7 +7,7 @@ import { rollZero, type Zero } from "../src/domain/index.js";
 
 const golden = `+--------------------------------------------------------------+
 | PASHAI                                         0-level, XP 0 |
-| Female human, Lawful                             Lotus-Eater |
+| Female human, Lawful                             Philosopher |
 +--------------------------------------------------------------+
 | A bone pin through the ear; a kilt of woven grass            |
 +-------------------------------------+------------------------+
@@ -17,10 +17,10 @@ const golden = `+--------------------------------------------------------------+
 +-------------------------------------+------------------------+
 | SAVES      Reflex +1   Fortitude +0   Will +0                |
 | ATTACK     Melee +0    Missile +1                            |
-| WEAPON     Razor (dagger), 1d4                               |
+| WEAPON     Staff, 1d4                                        |
 +--------------------------------------------------------------+
 | EQUIPMENT  Empty chest                                       |
-| TRADE      Pouch of lotus leaves                             |
+| TRADE      Wax tablet & stylus                               |
 | COPPER     29                                                |
 | LANGUAGES  Common (reads and writes)                         |
 +--------------------------------------------------------------+

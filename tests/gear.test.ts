@@ -25,7 +25,7 @@ describe("gear", () => {
     const fixed = roll([1, 1, 1, 1, 1, 1, 1, 1, 1, 100], { alignment: "chaotic" });
     expect(fixed.zero.alignment).toBe("chaotic");
     expect(fixed.dice.sidesAsked.slice(20)).toEqual([
-      100, 24, 12, 12, 12, 12, 12, 2, 100, 100, 10, 20, 10, 20,
+      79, 24, 12, 12, 12, 12, 12, 2, 100, 100, 10, 20, 10, 20,
     ]);
     expect(fixed.dice.consumed()).toBe(34);
   });

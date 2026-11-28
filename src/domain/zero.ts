@@ -9,12 +9,7 @@ import {
 } from "./gear.js";
 import { type LuckyRoll, luckBonus, makeLuckyRoll } from "./luck.js";
 import { rollName, rollSex, type Sex, type ZeroName } from "./name.js";
-import {
-  expandTradeGoods,
-  lookupOccupation,
-  type Occupation,
-  rollOccupationRow,
-} from "./occupation.js";
+import { expandTradeGoods, type Occupation, rollOccupation } from "./occupation.js";
 import type { Dice } from "./ports/dice.js";
 import {
   baseSpeed,
@@ -94,7 +89,7 @@ export function rollZero(dice: Dice, options: RollOptions = {}): Zero {
   let hitDie = dice.roll(hitDieSides);
   if (options.survivors === true) hitDie = Math.max(hitDie, dice.roll(hitDieSides));
 
-  const occupation = lookupOccupation(rollOccupationRow(dice));
+  const occupation = rollOccupation(dice);
   const race = rollRace(dice, options.demihumanChance ?? 0);
   const equipment = lookupEquipment(rollEquipmentRow(dice));
   const copper = rollCopper(dice);

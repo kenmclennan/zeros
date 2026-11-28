@@ -8,7 +8,6 @@ export interface Occupation {
   tradeGoods: string;
 }
 
-const occupationSides = 100;
 const whipDamage = "1d3";
 const diceTerm = /(\d+)d(\d+)( \w+s\b)?/g;
 
@@ -19,9 +18,7 @@ export function weaponDamage(fightsAs: string): string {
   return row.damage;
 }
 
-export function lookupOccupation(roll: number): Occupation {
-  const row = occupationTable.find((entry) => roll >= entry.from && roll <= entry.to);
-  if (!row) throw new RangeError(`no occupation for roll ${roll}`);
+function toOccupation(row: (typeof occupationTable)[number]): Occupation {
   return {
     name: row.name,
     weapon: { written: row.weapon, fightsAs: row.fightsAs, damage: weaponDamage(row.fightsAs) },
@@ -29,8 +26,16 @@ export function lookupOccupation(roll: number): Occupation {
   };
 }
 
-export function rollOccupationRow(dice: Dice): number {
-  return dice.roll(occupationSides);
+export function lookupOccupation(roll: number): Occupation {
+  const row = occupationTable.find((entry) => roll >= entry.from && roll <= entry.to);
+  if (!row) throw new RangeError(`no occupation for roll ${roll}`);
+  return toOccupation(row);
+}
+
+export function rollOccupation(dice: Dice): Occupation {
+  const row = occupationTable[dice.roll(occupationTable.length) - 1];
+  if (!row) throw new RangeError("occupation row out of range");
+  return toOccupation(row);
 }
 
 export function expandTradeGoods(tradeGoods: string, dice: Dice): string {

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { renderCard } from "../src/adapters/cli/card.js";
 import { rollZero } from "../src/domain/index.js";
-import { defaultTail, type Scores, script, scriptedDice } from "./helpers.js";
+import { defaultTail, physicianRow, type Scores, script, scriptedDice } from "./helpers.js";
 
 function card(scores: Scores, tail: number[] = defaultTail) {
   const zero = rollZero(scriptedDice(script(scores, 15, 2, tail)));
@@ -35,11 +35,11 @@ describe("card", () => {
   });
 
   it("singular dose", () => {
-    const one = card({}, [35, 1, 1, 1, 1, 1, 1, 1, 1, 1, 100, 1]);
+    const one = card({}, [physicianRow, 1, 1, 1, 1, 1, 1, 1, 1, 1, 100, 1]);
     expect(one.text).toContain("Trade goods: ");
     expect(one.text).toContain("Trade goods: 1 dose of healing salve (1 hp each)");
     expect(one.zero.occupation.tradeGoods).toContain("1 dose of");
-    const two = card({}, [35, 1, 1, 1, 1, 1, 1, 1, 1, 1, 100, 2]);
+    const two = card({}, [physicianRow, 1, 1, 1, 1, 1, 1, 1, 1, 1, 100, 2]);
     expect(two.text).toContain("Trade goods: 2 doses of healing salve (1 hp each)");
   });
 });
