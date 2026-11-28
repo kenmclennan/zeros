@@ -58,7 +58,16 @@ describe("survivors", () => {
   it("rolls exactly two d4 for hit points", () => {
     const sides: number[] = [];
     const inner = createSeededDice(3);
-    rollZero({ roll: (n) => (sides.push(n), inner.roll(n)) }, { survivors: true });
+    rollZero(
+      {
+        roll: (n) => {
+          sides.push(n);
+
+          return inner.roll(n);
+        },
+      },
+      { survivors: true },
+    );
     expect(sides.slice(18, 21)).toEqual([30, 4, 4]);
   });
 
