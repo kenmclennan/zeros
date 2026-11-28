@@ -32,7 +32,7 @@ export const augurTable: readonly Augur[] = [
   },
   { roll: 4, text: "Suckled by a she-wolf: Unarmed attack rolls", appliesTo: null },
   { roll: 5, text: "Born in a raider's saddle: Mounted attack rolls", appliesTo: null },
-  { roll: 6, text: "Born amid the slaughter: Damage rolls", appliesTo: null },
+  { roll: 6, text: "Born on the battlefield: Damage rolls", appliesTo: null },
   { roll: 7, text: "Blood of the cave-bear: Melee damage rolls", appliesTo: null },
   { roll: 8, text: "Eyes of the desert falcon: Missile fire damage rolls", appliesTo: null },
   {
@@ -63,13 +63,13 @@ export const augurTable: readonly Augur[] = [
   },
   {
     roll: 19,
-    text: "Stung by the scorpion and lived: Saving throws against poison",
+    text: "Stung by a scorpion and lived: Saving throws against poison",
     appliesTo: null,
   },
   { roll: 20, text: "Touched by the storm-god's lash: Reflex saving throws", appliesTo: "reflex" },
   { roll: 21, text: "Survived the long siege: Fortitude saving throws", appliesTo: "fortitude" },
   { roll: 22, text: "Refused the demon's bargain: Willpower saving throws", appliesTo: "will" },
-  { roll: 23, text: "Wears a mother's amulet: Armor Class", appliesTo: "armorClass" },
+  { roll: 23, text: "Hide of the crocodile: Armor Class", appliesTo: "armorClass" },
   { roll: 24, text: "Swift as the striking asp: Initiative", appliesTo: "initiative" },
   {
     roll: 25,

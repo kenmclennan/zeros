@@ -290,7 +290,7 @@ d100 name and nickname tables, adapted from the name tables in City Encounters (
 | 72   | the Red           |
 | 73   | the Ribald        |
 | 74   | the Badger        |
-| 75   | the Scholarly     |
+| 75   | the Scholar       |
 | 76   | the Servile       |
 | 77   | the Short         |
 | 78   | the Silent        |

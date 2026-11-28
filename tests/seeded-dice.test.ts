@@ -144,7 +144,7 @@ describe("seeded dice", () => {
           },
           {
             "category": "Bearing",
-            "feature": "a stoop",
+            "feature": "stooped",
           },
         ],
         "hitPoints": 1,

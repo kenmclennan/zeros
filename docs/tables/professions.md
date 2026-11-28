@@ -13,7 +13,7 @@ Ken's d100 sword-and-sorcery occupation table. The bracketed weapon is the stand
 | 13 | Bathhouse Attendant | Razor (dagger) | Scented oils |
 | 14 | Bronze Smith's Apprentice | Hammer (club) | Bronze tongs |
 | 15 | Charioteer | Javelin | Whip |
-| 16 | Charlatan | Dagger | Bottle of "miracle elixir" |
+| 16 | Charlatan | Dagger | Vial of "miracle elixir" |
 | 17 | Entertainer (Dancer/Actor) | Dagger | Painted mask |
 | 18-19 | Cultist of the Serpent | Curved dagger | Black lotus blossoms |
 | 20 | Desert Nomad | Spear | Water skin |
@@ -74,7 +74,7 @@ Ken's d100 sword-and-sorcery occupation table. The bracketed weapon is the stand
 | 86 | Stone Idol Porter | Club | Rope harness |
 | 87 | Storyteller | Dagger | Clay tablets of myths |
 | 88 | Temple Guard | Spear | Bronze helm |
-| 89 | Torch-Bearer | Club (torch) | Oil flask |
+| 89 | Torch-Bearer | Club (torch) | Flask of oil |
 | 90 | Trader | Dagger | Bolt of cloth |
 | 91 | Vizier's Servant | Dagger | Bronze seal of office |
 | 92 | Wanderer | Spear | Travel cloak |

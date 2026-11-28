@@ -86,7 +86,7 @@ export const occupationTable: readonly OccupationRow[] = [
     name: "Charlatan",
     weapon: "Dagger",
     fightsAs: "Dagger",
-    tradeGoods: 'Bottle of "miracle elixir"',
+    tradeGoods: 'Vial of "miracle elixir"',
   },
   {
     from: 17,
@@ -574,7 +574,7 @@ export const occupationTable: readonly OccupationRow[] = [
     name: "Torch-Bearer",
     weapon: "Club (torch)",
     fightsAs: "Club",
-    tradeGoods: "Oil flask",
+    tradeGoods: "Flask of oil",
   },
   {
     from: 90,

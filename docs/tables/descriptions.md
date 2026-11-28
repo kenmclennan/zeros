@@ -63,7 +63,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 13  | a beard knotted with bone beads          |         |
 | 14  | a pointed, oiled mustache                |         |
 | 15  | a beard crusted with old food            |         |
-| 16  | no brows, burned away                    |         |
+| 16  | brows singed away                        |         |
 | 17  | a smooth, beardless face                 |         |
 | 18  | a red beard plaited in two               |         |
 | 19  | sparse goat's-beard tufts                |         |
@@ -114,60 +114,60 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 14  | a sneer for everyone          |         |
 | 15  | a pious, downcast look        |         |
 | 16  | wide eyes, ever amazed        |         |
-| 17  | a squint against the sun      |         |
+| 17  | a sun-creased squint          |         |
 | 18  | a cat-like watchfulness       |         |
 | 19  | a sly, sidelong smile         |         |
 | 20  | a brooding, gloomy stare      |         |
 
 ### Male 5. Garb
 
-| d20 | Feature                                 | Implies |
-| --- | --------------------------------------- | ------- |
-| 1   | a filthy loin-cloth and nothing else    |         |
-| 2   | a coarse wool tunic, patched            |         |
-| 3   | leather breeches and sandals            |         |
-| 4   | a greasy sheepskin coat                 |         |
-| 5   | a stained white kaftan                  |         |
-| 6   | a shaggy goatskin cloak                 |         |
-| 7   | a mangy leopard-skin tunic              |         |
-| 8   | a crimson scarf about the head          |         |
-| 9   | a frayed linen kilt                     |         |
-| 10  | a brass-bound leather belt              |         |
-| 11  | a hooded mantle, mud-hemmed             |         |
-| 12  | wide silken breeches, faded             |         |
-| 13  | a bronze-studded harness over bare skin |         |
-| 14  | a dead man's cast-off tunic             |         |
-| 15  | a threadbare black robe                 |         |
-| 16  | a wolfskin over the shoulders           |         |
-| 17  | rags tied on with rope                  |         |
-| 18  | a gaudy sash of stolen silk             |         |
-| 19  | a turban wound from rags                |         |
-| 20  | a jerkin of scaly lizard-hide           |         |
+| d20 | Feature                           | Implies |
+| --- | --------------------------------- | ------- |
+| 1   | a filthy loin-cloth and bare feet |         |
+| 2   | a coarse wool tunic, patched      |         |
+| 3   | leather breeches and sandals      |         |
+| 4   | a greasy sheepskin coat           |         |
+| 5   | a stained white kaftan            |         |
+| 6   | a shaggy goatskin cloak           |         |
+| 7   | a mangy leopard-skin tunic        |         |
+| 8   | a crimson head-scarf              |         |
+| 9   | a frayed linen kilt               |         |
+| 10  | a brass-bound leather belt        |         |
+| 11  | a hooded mantle, mud-hemmed       |         |
+| 12  | wide silken breeches, faded       |         |
+| 13  | a faded red smock                 |         |
+| 14  | a dead man's cast-off tunic       |         |
+| 15  | a threadbare black robe           |         |
+| 16  | a wolfskin cloak                  |         |
+| 17  | rags belted with rope             |         |
+| 18  | a gaudy sash of stolen silk       |         |
+| 19  | a turban wound from rags          |         |
+| 20  | a girdle of scaly lizard-hide     |         |
 
 ### Male 6. Bearing
 
-| d20 | Feature                        | Implies |
-| --- | ------------------------------ | ------- |
-| 1   | a slinking, furtive manner     |         |
-| 2   | a swagger, thumbs in belt      |         |
-| 3   | a shambling gait               | AGI-    |
-| 4   | a stiff, straight back         |         |
-| 5   | a stoop                        |         |
-| 6   | a panther's easy stride        | AGI+    |
-| 7   | a heavy, deliberate tread      |         |
-| 8   | a bull's lumbering walk        | STR+    |
-| 9   | a restless, fidgeting manner   |         |
-| 10  | a taciturn, watchful stillness |         |
-| 11  | a cringing, bowed head         |         |
-| 12  | a rolling walk                 |         |
-| 13  | a light, quick step            | AGI+    |
-| 14  | a slow, heavy plod             |         |
-| 15  | a sidling approach             |         |
-| 16  | a proud, erect carriage        |         |
-| 17  | a weary, dragging pace         | STA-    |
-| 18  | a jumpy, startled manner       |         |
-| 19  | shoulders hunched as if cold   |         |
-| 20  | a lazy sprawl when seated      |         |
+| d20 | Feature                            | Implies |
+| --- | ---------------------------------- | ------- |
+| 1   | a furtive, slinking walk           |         |
+| 2   | a swagger, thumbs in belt          |         |
+| 3   | a shambling gait                   | AGI-    |
+| 4   | a back held stiff as a spear-shaft |         |
+| 5   | stooped                            |         |
+| 6   | a panther's easy stride            | AGI+    |
+| 7   | a heavy, deliberate tread          |         |
+| 8   | a bull's lumbering walk            | STR+    |
+| 9   | shifts from foot to foot           |         |
+| 10  | a watchful stillness               |         |
+| 11  | the cringe of a beaten dog         |         |
+| 12  | a rolling, bow-legged walk         |         |
+| 13  | a light, quick step                | AGI+    |
+| 14  | a hobbling limp                    |         |
+| 15  | a crab-like, sidelong approach     |         |
+| 16  | a proud, erect carriage            |         |
+| 17  | a weary, dragging walk             | STA-    |
+| 18  | starts at every sudden noise       |         |
+| 19  | shoulders hunched as if cold       |         |
+| 20  | a lazy, loose-limbed slouch        |         |
 
 ### Male 7. Voice
 
@@ -177,7 +177,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 2   | a low, rumbling voice            |         |
 | 3   | a guttural, growling voice       |         |
 | 4   | a shrill, cracking voice         |         |
-| 5   | a harsh, camp-bred voice         |         |
+| 5   | a harsh, barking voice           |         |
 | 6   | a flat, toneless voice           |         |
 | 7   | a wheedling, whining voice       |         |
 | 8   | a voice that croaks like a raven |         |
@@ -221,28 +221,28 @@ Every zero gets two features from two different categories of its sex's set: rol
 
 ### Male 9. Build
 
-| d20 | Feature                      | Implies |
-| --- | ---------------------------- | ------- |
-| 1   | a gaunt, half-starved frame  | STA-    |
-| 2   | a lean, muscle-knotted frame | STR+    |
-| 3   | a barrel chest               | STA+    |
-| 4   | a paunch like a wine-jar     |         |
-| 5   | broad, sun-browned shoulders | STR+    |
-| 6   | a wiry, rawboned body        |         |
-| 7   | ribs showing like a cage     | STA-    |
-| 8   | a broad, muscled back        | STR+    |
-| 9   | a squat, stocky trunk        | STA+    |
-| 10  | a tall, gangling frame       |         |
-| 11  | a thick bull neck            | STR+    |
-| 12  | a chest hairy as a bear's    |         |
-| 13  | a sun-burnt, hairless chest  |         |
-| 14  | a hunched, crooked spine     |         |
-| 15  | a spear-scar under the ribs  |         |
-| 16  | a lithe, supple body         | AGI+    |
-| 17  | a soft, pale belly           | STR-    |
-| 18  | skin gleaming with sweat     |         |
-| 19  | a narrow, bird-like chest    | STR-    |
-| 20  | a giant's thick frame        | STR+    |
+| d20 | Feature                                   | Implies |
+| --- | ----------------------------------------- | ------- |
+| 1   | a gaunt, half-starved frame               | STA-    |
+| 2   | a lean, muscle-knotted frame              | STR+    |
+| 3   | a barrel chest                            | STA+    |
+| 4   | a paunch like a wine-jar                  |         |
+| 5   | broad, sun-browned shoulders              | STR+    |
+| 6   | a wiry, rawboned body                     |         |
+| 7   | a frame like a starved dog's              | STA-    |
+| 8   | a broad, muscled back                     | STR+    |
+| 9   | a squat, stocky trunk                     | STA+    |
+| 10  | a tall, gangling frame                    |         |
+| 11  | a thick bull neck                         | STR+    |
+| 12  | thick black hair at the throat and wrists |         |
+| 13  | a smooth, boyish frame                    |         |
+| 14  | a hunched, crooked spine                  |         |
+| 15  | a body bent around an old spear wound     |         |
+| 16  | a lithe, supple body                      | AGI+    |
+| 17  | a body gone soft and slack                | STR-    |
+| 18  | skin gleaming with sweat                  |         |
+| 19  | a narrow, bird-like chest                 | STR-    |
+| 20  | a giant's thick frame                     | STR+    |
 
 ### Male 10. Habit
 
@@ -353,7 +353,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 13  | a pointed, fox-like chin     |         |
 | 14  | wide-set gray eyes           |         |
 | 15  | a pale, fever-pinched face   | STA-    |
-| 16  | warts on the chin            |         |
+| 16  | a cleft chin                 |         |
 | 17  | high, sharp cheekbones       |         |
 | 18  | a long, thin nose            |         |
 | 19  | green eyes like a cat's      |         |
@@ -379,7 +379,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 14  | a lip forever chewed       |         |
 | 15  | a pious, tranquil calm     |         |
 | 16  | a look of wide-eyed wonder |         |
-| 17  | a squint against the glare |         |
+| 17  | narrowed, appraising eyes  |         |
 | 18  | a gloating little smile    |         |
 | 19  | a blank, guarded mask      |         |
 | 20  | a fierce, knotted frown    |         |
@@ -394,10 +394,10 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 4   | a moth-eaten leopard-skin wrap   |         |
 | 5   | faded silks                      |         |
 | 6   | a hooded camel-hair cloak        |         |
-| 7   | rags held with a cord            |         |
+| 7   | a shift of knotted rags          |         |
 | 8   | a wrap of undyed linen           |         |
 | 9   | a nomad's padded riding robe     |         |
-| 10  | a scuffed leather jerkin         |         |
+| 10  | a scuffed leather vest           |         |
 | 11  | a threadbare white temple robe   |         |
 | 12  | a dress of stitched gazelle hide |         |
 | 13  | a wool mantle, mud-hemmed        |         |
@@ -414,24 +414,24 @@ Every zero gets two features from two different categories of its sex's set: rol
 | d20 | Feature                        | Implies |
 | --- | ------------------------------ | ------- |
 | 1   | a swinging, long-legged stride | AGI+    |
-| 2   | a stoop                        |         |
+| 2   | stooped                        |         |
 | 3   | a furtive, slinking manner     |         |
-| 4   | a light step                   | AGI+    |
+| 4   | a light, springing step        | AGI+    |
 | 5   | a proud, straight back         |         |
 | 6   | a slow, careful tread          |         |
-| 7   | a nervous, darting manner      |         |
+| 7   | quick, bird-like movements     |         |
 | 8   | a weary, plodding walk         | STA-    |
 | 9   | a firm, planted stance         |         |
-| 10  | a restless, fidgeting manner   |         |
-| 11  | shoulders drawn in, cringing   |         |
+| 10  | paces restlessly               |         |
+| 11  | a meek, shrinking posture      |         |
 | 12  | an insolent, hip-cocked stance |         |
-| 13  | a loping walk                  |         |
+| 13  | a long, wolfish lope           |         |
 | 14  | a patient, stone-still poise   |         |
-| 15  | a panther's supple stride      | AGI+    |
+| 15  | a cat's soundless tread        | AGI+    |
 | 16  | a bent crone's shuffle         | AGI-    |
-| 17  | a bustling walk                |         |
+| 17  | a brisk, elbows-out walk       |         |
 | 18  | a lazy, sprawling ease         |         |
-| 19  | a straight, upright walk       |         |
+| 19  | a sure-footed, steady walk     |         |
 | 20  | a haughty, gliding walk        |         |
 
 ### Female 7. Voice
@@ -486,28 +486,28 @@ Every zero gets two features from two different categories of its sex's set: rol
 
 ### Female 9. Build
 
-| d20 | Feature                       | Implies |
-| --- | ----------------------------- | ------- |
-| 1   | a gaunt, half-starved frame   | STA-    |
-| 2   | a lean, wiry body             |         |
-| 3   | broad, strong shoulders       | STR+    |
-| 4   | a stocky, square frame        | STA+    |
-| 5   | a tall, rawboned frame        |         |
-| 6   | a long-limbed, rangy frame    |         |
-| 7   | a long, straight back         |         |
-| 8   | a heavy, big-boned body       | STR+    |
-| 9   | a lithe, supple frame         | AGI+    |
-| 10  | a small, sparrow-boned frame  | STR-    |
-| 11  | a round, well-fed body        |         |
-| 12  | a hunched, crooked spine      |         |
-| 13  | a tall, willowy figure        |         |
-| 14  | a barrel-chested frame        | STA+    |
-| 15  | a sun-browned, hard body      | STA+    |
-| 16  | an old knife-scar in the side |         |
-| 17  | a soft, pale body             | STR-    |
-| 18  | a short, compact build        |         |
-| 19  | a frail, sickly frame         | STA-    |
-| 20  | a powerful, muscled frame     | STR+    |
+| d20 | Feature                               | Implies |
+| --- | ------------------------------------- | ------- |
+| 1   | a gaunt, half-starved frame           | STA-    |
+| 2   | a lean, wiry body                     |         |
+| 3   | broad, strong shoulders               | STR+    |
+| 4   | a stocky, square frame                | STA+    |
+| 5   | a tall, rawboned frame                |         |
+| 6   | a long-limbed, rangy frame            |         |
+| 7   | a long, straight back                 |         |
+| 8   | a heavy, big-boned body               | STR+    |
+| 9   | a lithe, supple frame                 | AGI+    |
+| 10  | a small, sparrow-boned frame          | STR-    |
+| 11  | a round, well-fed body                |         |
+| 12  | a hunched, crooked spine              |         |
+| 13  | a tall, willowy figure                |         |
+| 14  | a barrel-chested frame                | STA+    |
+| 15  | a sun-browned, hard body              | STA+    |
+| 16  | a side still favoured after a knifing |         |
+| 17  | a soft, pale body                     | STR-    |
+| 18  | a short, compact build                |         |
+| 19  | a frail, sickly frame                 | STA-    |
+| 20  | a powerful, muscled frame             | STR+    |
 
 ### Female 10. Habit
 

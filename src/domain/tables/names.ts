@@ -279,7 +279,7 @@ export const maleNicknames: readonly string[] = [
   "the Red",
   "the Ribald",
   "the Badger",
-  "the Scholarly",
+  "the Scholar",
   "the Servile",
   "the Short",
   "the Silent",
