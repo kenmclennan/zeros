@@ -48,7 +48,7 @@ describe("seeded dice", () => {
         "features": [
           {
             "category": "Adornment and Marks",
-            "feature": "a bone pin through the ear",
+            "feature": "has a bone pin through the ear",
           },
           {
             "category": "Garb",

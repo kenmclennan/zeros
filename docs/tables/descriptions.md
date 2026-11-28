@@ -96,28 +96,28 @@ Every zero gets two features from two different categories of its sex's set: rol
 
 ### Male 4. Expression
 
-| d20 | Feature                       | Implies |
-| --- | ----------------------------- | ------- |
-| 1   | a sullen scowl                |         |
-| 2   | a wolfish grin                |         |
-| 3   | a thin-lipped smile           |         |
-| 4   | furtive, darting eyes         |         |
-| 5   | a cringing, hangdog look      |         |
-| 6   | a slack, wine-sodden gape     |         |
-| 7   | a blank, immobile face        |         |
-| 8   | a hungry, calculating look    | INT+    |
-| 9   | a loud, ready laugh           |         |
-| 10  | a look of dull patience       | INT-    |
-| 11  | a proud, flared-nostril stare |         |
-| 12  | a bold, unblinking gaze       |         |
-| 13  | a nervous twitch at the mouth |         |
-| 14  | a sneer for everyone          |         |
-| 15  | a pious, downcast look        |         |
-| 16  | wide eyes, ever amazed        |         |
-| 17  | a sun-creased squint          |         |
-| 18  | a cat-like watchfulness       |         |
-| 19  | a sly, sidelong smile         |         |
-| 20  | a brooding, gloomy stare      |         |
+| d20 | Feature                         | Implies |
+| --- | ------------------------------- | ------- |
+| 1   | a sullen scowl                  |         |
+| 2   | a wolfish grin                  |         |
+| 3   | a thin-lipped smile             |         |
+| 4   | furtive, darting eyes           |         |
+| 5   | a cringing, hangdog look        |         |
+| 6   | a slack, wine-sodden gape       |         |
+| 7   | a blank, immobile face          |         |
+| 8   | a hungry, calculating look      | INT+    |
+| 9   | a loud, ready laugh             |         |
+| 10  | a look of dull patience         | INT-    |
+| 11  | a proud, flared-nostril stare   |         |
+| 12  | a bold, unblinking gaze         |         |
+| 13  | a mouth that twitches nervously |         |
+| 14  | sneers at everyone              |         |
+| 15  | a pious, downcast look          |         |
+| 16  | gapes wide-eyed at everything   |         |
+| 17  | a sun-creased squint            |         |
+| 18  | a cat-like watchfulness         |         |
+| 19  | a sly, sidelong smile           |         |
+| 20  | a brooding, gloomy stare        |         |
 
 ### Male 5. Garb
 
@@ -146,53 +146,53 @@ Every zero gets two features from two different categories of its sex's set: rol
 
 ### Male 6. Bearing
 
-| d20 | Feature                            | Implies |
-| --- | ---------------------------------- | ------- |
-| 1   | a furtive, slinking walk           |         |
-| 2   | a swagger, thumbs in belt          |         |
-| 3   | a shambling gait                   | AGI-    |
-| 4   | a back held stiff as a spear-shaft |         |
-| 5   | stooped                            |         |
-| 6   | a panther's easy stride            | AGI+    |
-| 7   | a heavy, deliberate tread          |         |
-| 8   | a bull's lumbering walk            | STR+    |
-| 9   | shifts from foot to foot           |         |
-| 10  | a watchful stillness               |         |
-| 11  | the cringe of a beaten dog         |         |
-| 12  | a rolling, bow-legged walk         |         |
-| 13  | a light, quick step                | AGI+    |
-| 14  | a hobbling limp                    |         |
-| 15  | a crab-like, sidelong approach     |         |
-| 16  | a proud, erect carriage            |         |
-| 17  | a weary, dragging walk             | STA-    |
-| 18  | starts at every sudden noise       |         |
-| 19  | shoulders hunched as if cold       |         |
-| 20  | a lazy, loose-limbed slouch        |         |
+| d20 | Feature                              | Implies |
+| --- | ------------------------------------ | ------- |
+| 1   | slinks furtively                     |         |
+| 2   | swaggers, thumbs in belt             |         |
+| 3   | shambles along                       | AGI-    |
+| 4   | back straight as a spear-shaft       |         |
+| 5   | stooped                              |         |
+| 6   | prowls with a panther's easy stride  | AGI+    |
+| 7   | plods with a heavy, deliberate tread |         |
+| 8   | lumbers like a bull                  | STR+    |
+| 9   | shifts from foot to foot             |         |
+| 10  | watchfully still                     |         |
+| 11  | cringes like a beaten dog            |         |
+| 12  | rolls along on bow legs              |         |
+| 13  | a light, quick step                  | AGI+    |
+| 14  | hobbles with a limp                  |         |
+| 15  | sidles crab-like                     |         |
+| 16  | a proud, erect carriage              |         |
+| 17  | lurks in the shadows                 |         |
+| 18  | starts at every sudden noise         |         |
+| 19  | shoulders hunched                    |         |
+| 20  | moves in a languid, dreamy way       |         |
 
 ### Male 7. Voice
 
-| d20 | Feature                          | Implies |
-| --- | -------------------------------- | ------- |
-| 1   | a voice like a bull's bellow     |         |
-| 2   | a low, rumbling voice            |         |
-| 3   | a guttural, growling voice       |         |
-| 4   | a shrill, cracking voice         |         |
-| 5   | a harsh, barking voice           |         |
-| 6   | a flat, toneless voice           |         |
-| 7   | a wheedling, whining voice       |         |
-| 8   | a voice that croaks like a raven |         |
-| 9   | a rich, musical voice            |         |
-| 10  | a thick hill-folk accent         |         |
-| 11  | stammers when afraid             |         |
-| 12  | a hoarse, smoke-cured voice      |         |
-| 13  | grunts in place of words         |         |
-| 14  | a silky, purring voice           |         |
-| 15  | a voice that carries             |         |
-| 16  | lisps through missing teeth      |         |
-| 17  | speaks in a soft, slow drawl     |         |
-| 18  | swears by every god              |         |
-| 19  | speaks in a pious singsong       |         |
-| 20  | a hollow, mournful voice         |         |
+| d20 | Feature                      | Implies |
+| --- | ---------------------------- | ------- |
+| 1   | bellows like a bull          |         |
+| 2   | a low, rumbling voice        |         |
+| 3   | growls deep in the throat    |         |
+| 4   | a shrill, cracking voice     |         |
+| 5   | barks like a dog             |         |
+| 6   | a flat, toneless voice       |         |
+| 7   | wheedles and whines          |         |
+| 8   | croaks like a raven          |         |
+| 9   | a rich, musical voice        |         |
+| 10  | a thick hill-folk accent     |         |
+| 11  | stammers when afraid         |         |
+| 12  | a hoarse, smoke-cured voice  |         |
+| 13  | grunts in place of words     |         |
+| 14  | purrs silkily                |         |
+| 15  | a voice that carries         |         |
+| 16  | lisps through missing teeth  |         |
+| 17  | speaks in a soft, slow drawl |         |
+| 18  | swears by every god          |         |
+| 19  | speaks in a pious singsong   |         |
+| 20  | a hollow, mournful voice     |         |
 
 ### Male 8. Arms and Hands
 
@@ -246,28 +246,28 @@ Every zero gets two features from two different categories of its sex's set: rol
 
 ### Male 10. Habit
 
-| d20 | Feature                        | Implies |
-| --- | ------------------------------ | ------- |
-| 1   | chews on a reed                |         |
-| 2   | cracks knuckles when idle      |         |
-| 3   | mutters to the gods            |         |
-| 4   | picks teeth with a knife-point |         |
-| 5   | never sits with back to a door |         |
-| 6   | spits before speaking          |         |
-| 7   | counts coins over and over     |         |
-| 8   | hums tunelessly                |         |
-| 9   | sniffs food before eating      |         |
-| 10  | whittles at a stick            |         |
-| 11  | touches a charm at every oath  |         |
-| 12  | talks to a pet rat             |         |
-| 13  | drinks before noon             |         |
-| 14  | laughs at others' pain         |         |
-| 15  | sleeps sitting up              |         |
-| 16  | bites coins to test them       |         |
-| 17  | scratches at old scars         |         |
-| 18  | boasts of past fights          |         |
-| 19  | spits to the left for luck     |         |
-| 20  | keeps one hand near a knife    |         |
+| d20 | Feature                                | Implies |
+| --- | -------------------------------------- | ------- |
+| 1   | chews on a reed                        |         |
+| 2   | cracks knuckles when idle              |         |
+| 3   | mutters to the gods                    |         |
+| 4   | picks teeth with a knife-point         |         |
+| 5   | never sits with back to a door         |         |
+| 6   | spits before speaking                  |         |
+| 7   | counts coins over and over             |         |
+| 8   | hums tunelessly                        |         |
+| 9   | always sniffs their food before eating |         |
+| 10  | whittles at a stick                    |         |
+| 11  | touches a charm at every oath          |         |
+| 12  | talks to a pet rat                     |         |
+| 13  | reeks of sour wine                     |         |
+| 14  | laughs at others' pain                 |         |
+| 15  | sleeps sitting up                      |         |
+| 16  | bites coins to test them               |         |
+| 17  | scratches at old scars                 |         |
+| 18  | boasts of past fights                  |         |
+| 19  | spits to the left for luck             |         |
+| 20  | keeps one hand near their weapon       |         |
 
 ## Female Set
 
@@ -311,28 +311,28 @@ Every zero gets two features from two different categories of its sex's set: rol
 
 ### Female 2. Adornment and Marks
 
-| d20 | Feature                               | Implies |
-| --- | ------------------------------------- | ------- |
-| 1   | ear pendants of beaten copper         |         |
-| 2   | a brass nose-ring                     |         |
-| 3   | tattoos of ocher and woad             |         |
-| 4   | a necklace of animal teeth            |         |
-| 5   | silver bangles on both wrists         |         |
-| 6   | eyes painted soot-dark                |         |
-| 7   | a chin tattooed with blue dots        |         |
-| 8   | lips stained with berry juice         |         |
-| 9   | a copper torc at the throat           |         |
-| 10  | a string of clay beads                |         |
-| 11  | a smear of temple ash                 |         |
-| 12  | a painted dot between the brows       |         |
-| 13  | a scar from brow to jaw               |         |
-| 14  | a cord of knotted charms at the waist |         |
-| 15  | a bone pin through the ear            |         |
-| 16  | an amber bead on a thong              |         |
-| 17  | ritual scars on the cheeks            |         |
-| 18  | a gilded, flaking amulet              |         |
-| 19  | a mole beside the mouth               |         |
-| 20  | a coral charm against ill-luck        |         |
+| d20 | Feature                                            | Implies |
+| --- | -------------------------------------------------- | ------- |
+| 1   | ear pendants of beaten copper                      |         |
+| 2   | a brass nose-ring                                  |         |
+| 3   | tattooed in ochre and woad                         |         |
+| 4   | wears a necklace of animal teeth                   |         |
+| 5   | wrists adorned with silver bangles                 |         |
+| 6   | soot-dark painted eyes                             |         |
+| 7   | chin tattooed with blue dots                       |         |
+| 8   | lips stained with berry juice                      |         |
+| 9   | wears a heavy copper torc                          |         |
+| 10  | wears a string of clay beads                       |         |
+| 11  | face smeared with temple ash                       |         |
+| 12  | has a dot painted between the brows                |         |
+| 13  | has a livid scar from brow to jaw                  |         |
+| 14  | belt hung with jingling charms                     |         |
+| 15  | has a bone pin through the ear                     |         |
+| 16  | an amber bead hangs from a thong around their neck |         |
+| 17  | cheeks bear ritual scars                           |         |
+| 18  | wears a gilded, flaking amulet                     |         |
+| 19  | bears a skull-shaped mole                          |         |
+| 20  | wears a coral charm bracelet against ill-luck      |         |
 
 ### Female 3. Face
 
@@ -376,7 +376,7 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 11  | a sour, pinched mouth      |         |
 | 12  | a serene, faraway gaze     |         |
 | 13  | a haughty lift of the chin |         |
-| 14  | a lip forever chewed       |         |
+| 14  | chews their lip constantly |         |
 | 15  | a pious, tranquil calm     |         |
 | 16  | a look of wide-eyed wonder |         |
 | 17  | narrowed, appraising eyes  |         |
@@ -407,57 +407,57 @@ Every zero gets two features from two different categories of its sex's set: rol
 | 17  | a brass-buckled belt             |         |
 | 18  | a stolen silk sash               |         |
 | 19  | a shawl of goat hair             |         |
-| 20  | a wolfskin over the shoulders    |         |
+| 20  | a wolfskin cloak                 |         |
 
 ### Female 6. Bearing
 
-| d20 | Feature                        | Implies |
-| --- | ------------------------------ | ------- |
-| 1   | a swinging, long-legged stride | AGI+    |
-| 2   | stooped                        |         |
-| 3   | a furtive, slinking manner     |         |
-| 4   | a light, springing step        | AGI+    |
-| 5   | a proud, straight back         |         |
-| 6   | a slow, careful tread          |         |
-| 7   | quick, bird-like movements     |         |
-| 8   | a weary, plodding walk         | STA-    |
-| 9   | a firm, planted stance         |         |
-| 10  | paces restlessly               |         |
-| 11  | a meek, shrinking posture      |         |
-| 12  | an insolent, hip-cocked stance |         |
-| 13  | a long, wolfish lope           |         |
-| 14  | a patient, stone-still poise   |         |
-| 15  | a cat's soundless tread        | AGI+    |
-| 16  | a bent crone's shuffle         | AGI-    |
-| 17  | a brisk, elbows-out walk       |         |
-| 18  | a lazy, sprawling ease         |         |
-| 19  | a sure-footed, steady walk     |         |
-| 20  | a haughty, gliding walk        |         |
+| d20 | Feature                                  | Implies |
+| --- | ---------------------------------------- | ------- |
+| 1   | a swinging, long-legged stride           | AGI+    |
+| 2   | stooped                                  |         |
+| 3   | a furtive, slinking manner               |         |
+| 4   | a light, springing step                  | AGI+    |
+| 5   | a proud, straight back                   |         |
+| 6   | picks their way with slow, careful steps |         |
+| 7   | quick, bird-like movements               |         |
+| 8   | plods wearily                            | STA-    |
+| 9   | a firm, planted stance                   |         |
+| 10  | paces restlessly                         |         |
+| 11  | shrinks back meekly                      |         |
+| 12  | stands insolently, hip cocked            |         |
+| 13  | lopes like a wolf                        |         |
+| 14  | stands patient and stone-still           |         |
+| 15  | pads soundlessly like a cat              | AGI+    |
+| 16  | shuffles like a bent crone               | AGI-    |
+| 17  | bustles along, elbows out                |         |
+| 18  | lounges with lazy ease                   |         |
+| 19  | a sure-footed, steady walk               |         |
+| 20  | glides haughtily                         |         |
 
 ### Female 7. Voice
 
-| d20 | Feature                            | Implies |
-| --- | ---------------------------------- | ------- |
-| 1   | a shrill, scolding voice           |         |
-| 2   | a rich, musical voice              |         |
-| 3   | a husky, smoke-rough voice         |         |
-| 4   | a soft, purring voice              |         |
-| 5   | a harsh, cawing voice              |         |
-| 6   | mumbles, eyes down                 |         |
-| 7   | a loud, bawdy cackle               |         |
-| 8   | a flat, toneless voice             |         |
-| 9   | a singsong hill accent             |         |
-| 10  | a deep, carrying voice             |         |
-| 11  | stammers when pressed              |         |
-| 12  | a whining, complaining voice       |         |
-| 13  | a lilting foreign accent           |         |
-| 14  | a crone's cracked, quavering voice |         |
-| 15  | swears a stream of oaths           |         |
-| 16  | speaks in a breathy whisper        |         |
-| 17  | speaks in a chanting cadence       |         |
-| 18  | a sharp, clipped voice             |         |
-| 19  | a slow, drawling voice             |         |
-| 20  | seldom says a word                 |         |
+| d20 | Feature                      | Implies |
+| --- | ---------------------------- | ------- |
+| 1   | scolds shrilly               |         |
+| 2   | a rich, musical voice        |         |
+| 3   | a husky, smoke-rough voice   |         |
+| 4   | purrs softly                 |         |
+| 5   | caws like a crow             |         |
+| 6   | mumbles, eyes down           |         |
+| 7   | cackles bawdily              |         |
+| 8   | a flat, toneless voice       |         |
+| 9   | a singsong hill accent       |         |
+| 10  | a deep, carrying voice       |         |
+| 11  | stammers when pressed        |         |
+| 12  | a whining, complaining voice |         |
+| 13  | a lilting foreign accent     |         |
+| 14  | quavers like an old crone    |         |
+| 15  | swears a stream of oaths     |         |
+| 16  | speaks in a breathy whisper  |         |
+| 17  | speaks in a chanting cadence |         |
+| 18  | a sharp, clipped voice       |         |
+| 19  | a slow, drawling voice       |         |
+| 20  | seldom says a word           |         |
 
 ### Female 8. Arms and Hands
 
@@ -511,25 +511,25 @@ Every zero gets two features from two different categories of its sex's set: rol
 
 ### Female 10. Habit
 
-| d20 | Feature                         | Implies |
-| --- | ------------------------------- | ------- |
-| 1   | chews a sliver of resin         |         |
-| 2   | twists a lock of hair           |         |
-| 3   | hums old cradle-songs           |         |
-| 4   | mutters charms under the breath |         |
-| 5   | never sits with back to a door  |         |
-| 6   | bites at fingernails            |         |
-| 7   | haggles over everything         |         |
-| 8   | counts and recounts coins       |         |
-| 9   | sniffs food before eating       |         |
-| 10  | spits for luck                  |         |
-| 11  | tells fortunes unasked          |         |
-| 12  | keeps a knife in a sleeve       |         |
-| 13  | laughs too loudly               |         |
-| 14  | touches an amulet when afraid   |         |
-| 15  | sings while working             |         |
-| 16  | talks to the dead               |         |
-| 17  | hoards scraps of food           |         |
-| 18  | wakes at the slightest sound    |         |
-| 19  | gossips endlessly               |         |
-| 20  | picks at scabs                  |         |
+| d20 | Feature                                | Implies |
+| --- | -------------------------------------- | ------- |
+| 1   | chews a sliver of resin                |         |
+| 2   | twists a lock of hair                  |         |
+| 3   | hums old cradle-songs                  |         |
+| 4   | mutters charms under the breath        |         |
+| 5   | never sits with back to a door         |         |
+| 6   | bites at fingernails                   |         |
+| 7   | haggles over everything                |         |
+| 8   | counts and recounts coins              |         |
+| 9   | always sniffs their food before eating |         |
+| 10  | spits for luck                         |         |
+| 11  | tells fortunes unasked                 |         |
+| 12  | keeps one hand hidden in a sleeve      |         |
+| 13  | laughs too loudly                      |         |
+| 14  | touches an amulet when afraid          |         |
+| 15  | sings while working                    |         |
+| 16  | talks to the dead                      |         |
+| 17  | hoards scraps of food                  |         |
+| 18  | wakes at the slightest sound           |         |
+| 19  | gossips endlessly                      |         |
+| 20  | picks at scabs                         |         |
