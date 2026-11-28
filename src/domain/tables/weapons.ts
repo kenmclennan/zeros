@@ -17,6 +17,10 @@ export const weaponTable: readonly WeaponRow[] = [
     damage: "1d3",
   },
   {
+    name: "Cavalry spear",
+    damage: "1d12",
+  },
+  {
     name: "Club",
     damage: "1d4",
   },
@@ -43,10 +47,6 @@ export const weaponTable: readonly WeaponRow[] = [
   {
     name: "Javelin",
     damage: "1d6",
-  },
-  {
-    name: "Lance",
-    damage: "1d12",
   },
   {
     name: "Longbow",
